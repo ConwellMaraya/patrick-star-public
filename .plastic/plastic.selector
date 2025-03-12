@@ -1,0 +1,4 @@
+repository "Pintado/Pintado-Game@18968245957041@cloud"
+  path "/"
+    br "/main"
+    co "/main"
