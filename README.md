@@ -20,7 +20,7 @@ A 2D Platformer Roguelike Desktop Game Made in Unity
 
 ## PS.010.000 Release Notes
 - Format versioning table to follow guidelines
-- Update README formatting and versioning guide
+- Update README formatting and versioning guide.
 - Add README file
 
 ## Important Links:  
