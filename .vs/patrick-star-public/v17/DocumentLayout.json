@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Entities\\Player\\PlayerBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Entities\\Player\\PlayerBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Player.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Player.cs",
+              "RelativeToolTip": "Assets\\Player.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAAJkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:13:58.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Entities\\Player\\PlayerBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Entities\\Player\\PlayerBehaviour.cs",

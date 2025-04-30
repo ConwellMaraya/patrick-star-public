@@ -8,6 +8,9 @@ public class Player : MonoBehaviour
     [SerializeField] private float moveSpeed;
     [SerializeField] private float jumpForce = 10;
     [SerializeField] private bool isMoving;
+    [SerializeField] private int maxJumps = 2;
+    [SerializeField] private int jumpctr = 0;
+
 
     [Header("Dash Info")]
     [SerializeField] private float dashSpeed;
@@ -38,6 +41,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
+        jumpctr = maxJumps;
     }
 
     void Update()
@@ -74,7 +78,19 @@ public class Player : MonoBehaviour
 
     private void CollisionChecks()
     {
-        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, whatIsGround);
+        bool newIsGrounded;
+
+        newIsGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, whatIsGround);
+
+        if (newIsGrounded)
+        {
+            isGrounded = true;
+            jumpctr = maxJumps;
+        }
+        else
+        {
+            isGrounded = false;
+        }
     }
 
     private void CheckInput()
@@ -135,8 +151,11 @@ public class Player : MonoBehaviour
 
     private void Jump()
     {
-        if (isGrounded)
+        if (isGrounded || jumpctr > 1)
+        {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            jumpctr--;
+        }
     }
 
     private void AnimatorControllers()
