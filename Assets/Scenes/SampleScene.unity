@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 498689462}
   - component: {fileID: 498689466}
   - component: {fileID: 498689467}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1255,6 +1255,10 @@ MonoBehaviour:
   wallCheck: {fileID: 2140328410}
   wallCheckDistance: 0.78
   moveSpeed: 1
+  playerDistance: 4.11
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1502021969
 GameObject:
   m_ObjectHideFlags: 0
