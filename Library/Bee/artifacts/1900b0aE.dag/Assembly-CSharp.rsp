@@ -377,8 +377,15 @@
 -analyzer:"C:/Program Files/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/EnemySkeleton.cs"
 "Assets/Entity.cs"
-"Assets/Player.cs"
-"Assets/PlayerAnimEvents.cs"
+"Assets/Player/Player.cs"
+"Assets/Player/PlayerAirState.cs"
+"Assets/Player/PlayerAnimEvents.cs"
+"Assets/Player/PlayerGroundedState.cs"
+"Assets/Player/PlayerIdleState.cs"
+"Assets/Player/PlayerJumpState.cs"
+"Assets/Player/PlayerMoveState.cs"
+"Assets/Player/PlayerState.cs"
+"Assets/Player/PlayerStateMachine.cs"
 -langversion:9.0
 
 /deterministic

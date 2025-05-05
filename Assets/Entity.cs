@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
-    protected Rigidbody2D rb;
+    public Rigidbody2D rb { get; private set; }
     protected Animator anim;
     protected bool isGrounded;
     protected bool isWallDetected;
@@ -48,8 +48,6 @@ public class Entity : MonoBehaviour
 
     protected virtual void CollisionChecks()
     {
-        
-
         newIsGrounded = Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, whatIsGround);
         isWallDetected = Physics2D.Raycast(wallCheck.position,Vector2.right, wallCheckDistance * facingDirection, whatIsGround);
 
