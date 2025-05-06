@@ -6,21 +6,21 @@ using UnityEngine;
 public class Entity : MonoBehaviour
 {
     public Rigidbody2D rb { get; private set; }
-    protected Animator anim;
-    protected bool isGrounded;
-    protected bool isWallDetected;
-    protected bool newIsGrounded;
-    protected float xInput;
-    protected int facingDirection = 1;
-    protected bool facingRight = true;
+    public Animator anim { get; private set; }
+    public bool isGrounded { get; private set; }
+    public bool isWallDetected { get; private set; }
+    public bool newIsGrounded{ get; private set; }
+    public float xInput;
+    public int facingDirection = 1;
+    public bool facingRight = true;
 
     [Header("Collision Info")]
-    [SerializeField] protected float groundCheckDistance;
-    [SerializeField] protected LayerMask whatIsGround;
-    [SerializeField] protected Transform groundCheck;
+    [SerializeField] public float groundCheckDistance;
+    [SerializeField] public LayerMask whatIsGround;
+    [SerializeField] public Transform groundCheck;
     [Space]
-    [SerializeField] protected Transform wallCheck;
-    [SerializeField] protected float wallCheckDistance;
+    [SerializeField] public Transform wallCheck;
+    [SerializeField] public float wallCheckDistance;
     // Start is called before the first frame update
     protected virtual void Start()
     {

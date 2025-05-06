@@ -379,13 +379,17 @@
 "Assets/Entity.cs"
 "Assets/Player/Player.cs"
 "Assets/Player/PlayerAirState.cs"
-"Assets/Player/PlayerAnimEvents.cs"
+"Assets/Player/PlayerAnimTriggers.cs"
+"Assets/Player/PlayerDashState.cs"
 "Assets/Player/PlayerGroundedState.cs"
 "Assets/Player/PlayerIdleState.cs"
 "Assets/Player/PlayerJumpState.cs"
 "Assets/Player/PlayerMoveState.cs"
+"Assets/Player/PlayerPrimaryAttackState.cs"
 "Assets/Player/PlayerState.cs"
 "Assets/Player/PlayerStateMachine.cs"
+"Assets/Player/PlayerWallJumpState.cs"
+"Assets/Player/PlayerWallSlideState.cs"
 -langversion:9.0
 
 /deterministic

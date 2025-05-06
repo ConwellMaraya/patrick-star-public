@@ -23,7 +23,10 @@ public class PlayerMoveState : PlayerGroundedState
     public override void Update()
     {
         base.Update();
+        if (xInput == player.facingDirection && player.isWallDetected)
+            player.stateMachine.ChangeState(player.idleState);
         player.SetVelocity(xInput * player.moveSpeed, rb.velocity.y);
+
         if (xInput == 0)
             player.stateMachine.ChangeState(player.idleState);
     }

@@ -313,7 +313,7 @@ Transform:
   m_GameObject: {fileID: 483800059}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalPosition: {x: 0, y: -1.202, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -375,7 +375,7 @@ Transform:
   m_GameObject: {fileID: 498689461}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.89, y: 1.45, z: 0}
+  m_LocalPosition: {x: 25.59, y: 2.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -396,23 +396,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 889d5866268af814b8a38e186ac4ee7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundCheckDistance: 0.5
+  xInput: 0
+  facingDirection: 1
+  facingRight: 1
+  groundCheckDistance: 0.15
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
   groundCheck: {fileID: 483800060}
   wallCheck: {fileID: 1502021970}
-  wallCheckDistance: 0.91
+  wallCheckDistance: 0.11
   moveSpeed: 6
   jumpForce: 12
   isMoving: 0
   maxJumps: 2
   jumpctr: 0
   dashSpeed: 25
-  dashDuration: 0.25
+  dashDuration: 0.2
   dashCooldown: 2
-  comboTime: 1
-  comboTimeWindow: 0
+  dashCooldownTimer: 0
+  attackMovement:
+  - {x: 3, y: 1.5}
+  - {x: 1, y: 2.5}
+  - {x: 4, y: 1.5}
 --- !u!70 &498689467
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -422,7 +428,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 498689461}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1d01ed3107a1af84ab0d8d71952dad78, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -445,8 +451,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0037024617, y: -0.27768707}
-  m_Size: {x: 1.173854, y: 2.103343}
+  m_Offset: {x: 0.021261215, y: -0.28646642}
+  m_Size: {x: 0.8226776, y: 1.9628731}
   m_Direction: 0
 --- !u!212 &498689468
 SpriteRenderer:
@@ -587,7 +593,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8900003, y: 1.4499998, z: -10}
+  m_LocalPosition: {x: 25.59, y: 2.79, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -843,8 +849,8 @@ Transform:
   m_GameObject: {fileID: 672245711}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.5021, y: 1.0377, z: 0}
-  m_LocalScale: {x: 9.090235, y: 5.0479016, z: 1}
+  m_LocalPosition: {x: 14.5021, y: 3.3341, z: 0}
+  m_LocalScale: {x: 9.090235, y: 9.640483, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1182,7 +1188,7 @@ Transform:
   m_GameObject: {fileID: 997648352}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8900003, y: 1.4499998, z: -10}
+  m_LocalPosition: {x: 25.59, y: 2.79, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1300,6 +1306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f8d970f3944ad549b0198e4c8382f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xInput: 0
+  facingDirection: 1
+  facingRight: 1
   groundCheckDistance: 0.1
   whatIsGround:
     serializedVersion: 2
@@ -1333,7 +1342,7 @@ Transform:
   m_GameObject: {fileID: 1502021969}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.33, z: 0}
+  m_LocalPosition: {x: 0.447, y: -0.054, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1434,7 +1443,7 @@ GameObject:
   - component: {fileID: 1994505583}
   - component: {fileID: 1994505584}
   - component: {fileID: 1994505585}
-  - component: {fileID: 1994505586}
+  - component: {fileID: 1994505587}
   m_Layer: 0
   m_Name: Animator
   m_TagString: Untagged
@@ -1530,7 +1539,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1994505586
+--- !u!114 &1994505587
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1539,7 +1548,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1994505582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c87fd1e8ebf92c4dbe95522892bb50f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b91304e36f02ae40a6b57e5ea7ebcd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2140328409

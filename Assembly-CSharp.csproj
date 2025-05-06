@@ -61,13 +61,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Player\PlayerGroundedState.cs" />
+    <Compile Include="Assets\Player\PlayerDashState.cs" />
     <Compile Include="Assets\Player\PlayerMoveState.cs" />
     <Compile Include="Assets\Player\PlayerJumpState.cs" />
     <Compile Include="Assets\EnemySkeleton.cs" />
     <Compile Include="Assets\Player\PlayerAirState.cs" />
+    <Compile Include="Assets\Player\PlayerWallJumpState.cs" />
+    <Compile Include="Assets\Player\PlayerAnimTriggers.cs" />
     <Compile Include="Assets\Player\PlayerStateMachine.cs" />
-    <Compile Include="Assets\Player\PlayerAnimEvents.cs" />
+    <Compile Include="Assets\Player\PlayerWallSlideState.cs" />
     <Compile Include="Assets\Player\PlayerState.cs" />
+    <Compile Include="Assets\Player\PlayerPrimaryAttackState.cs" />
     <Compile Include="Assets\Player\PlayerIdleState.cs" />
     <Compile Include="Assets\Player\Player.cs" />
     <Compile Include="Assets\Entity.cs" />

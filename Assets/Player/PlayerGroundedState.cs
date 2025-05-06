@@ -21,9 +21,19 @@ public class PlayerGroundedState : PlayerState
     public override void Update()
     {
         base.Update();
-        if (Input.GetKeyDown(KeyCode.Space))
+
+        //For hold down attack, remove Down from GetKeyDown
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+            stateMachine.ChangeState(player.primaryAttack);
+
+        if (player.isGrounded == false)
+            stateMachine.ChangeState(player.airState);
+        if (Input.GetKeyDown(KeyCode.Space) && player.isGrounded)
         {
             stateMachine.ChangeState(player.jumpState);
         }
+
+       
+        
     }
 }

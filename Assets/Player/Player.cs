@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Player : Entity
@@ -6,26 +7,24 @@ public class Player : Entity
     [Header("Move Info")]
     [SerializeField] public float moveSpeed;
     [SerializeField] public float jumpForce = 10F;
-    [SerializeField] private bool isMoving;
-    [SerializeField] private int maxJumps = 2;
-    [SerializeField] private int jumpctr = 0;
-
+    [SerializeField] public bool isMoving;
+    [SerializeField] public int maxJumps = 2;
+    [SerializeField] public int jumpctr = 0;
 
     [Header("Dash Info")]
-    [SerializeField] private float dashSpeed;
-    [SerializeField] private float dashDuration;
+    [SerializeField] public float dashSpeed;
+    [SerializeField] public float dashDuration;
+    [SerializeField] public float dashDir {get; private set;}
     private float dashTime;
 
-    [SerializeField] private float dashCooldown;
-    private float dashCooldownTimer;
+    [SerializeField] public float dashCooldown;
+    [SerializeField] public float dashCooldownTimer;
 
     [Header("Attack Info")]
-    [SerializeField] private float comboTime;
-    [SerializeField] private float comboTimeWindow;
-    private bool isAttacking;
-    private int comboCounter;
+    public Vector2[] attackMovement;
 
     public Animator playerAnim { get; private set; }
+    public bool isBusy { get; private set; }    
     #endregion Components
 
     #region States
@@ -34,6 +33,10 @@ public class Player : Entity
     public PlayerMoveState moveState { get; private set; }
     public PlayerJumpState jumpState { get; private set; }
     public PlayerAirState airState { get; private set; }
+    public PlayerDashState dashState { get; private set; }
+    public PlayerWallSlideState wallSlideState { get; private set; }
+    public PlayerWallJumpState wallJumpState { get; private set; }  
+    public PlayerPrimaryAttackState primaryAttack { get; private set; }
     #endregion States
 
 
@@ -44,6 +47,10 @@ public class Player : Entity
         moveState = new PlayerMoveState(this, stateMachine, "Move");
         jumpState = new PlayerJumpState(this, stateMachine, "Jump");
         airState = new PlayerAirState(this, stateMachine, "Jump");
+        dashState = new PlayerDashState(this, stateMachine, "Dash");
+        wallSlideState = new PlayerWallSlideState(this, stateMachine, "WallSlide");
+        wallJumpState = new PlayerWallJumpState(this, stateMachine, "WallJump");
+        primaryAttack = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
     }
 
     protected override void Start()
@@ -52,6 +59,8 @@ public class Player : Entity
         jumpctr = maxJumps;
         playerAnim = GetComponentInChildren<Animator>();
         stateMachine.Initialize(idleState);
+
+        
         
     }
 
@@ -60,12 +69,8 @@ public class Player : Entity
         base.Update();
         stateMachine.currentState.Update();
         CheckInput();
-        
+        Debug.Log(isWallDetected);
 
-        dashTime -= Time.deltaTime;
-        dashCooldownTimer -= Time.deltaTime;
-
-        comboTimeWindow -= Time.deltaTime;
 
 
         FlipController();
@@ -73,18 +78,15 @@ public class Player : Entity
 
     }
 
-    public void AttackOver()
+    public IEnumerator BusyFor(float seconds)
     {
-        isAttacking = false;
-
-        comboCounter++;
-
-        if (comboCounter > 2)
-            comboCounter = 0;
+        isBusy = true;
+        yield return new WaitForSeconds(seconds);
+        isBusy = false;
+    }    
 
 
-
-    }
+    public void AnimationTrigger() => stateMachine.currentState.finishAnim();
 
     protected override void CollisionChecks()
     {
@@ -99,55 +101,31 @@ public class Player : Entity
     private void CheckInput()
     {
         xInput = Input.GetAxisRaw("Horizontal");
+        dashCooldownTimer -= Time.deltaTime;
 
-        if(Input.GetKeyDown(KeyCode.Mouse0))
+        if (!isWallDetected)
         {
-            StartAttack();
-        }
+            if (Input.GetKeyDown(KeyCode.LeftShift) && dashCooldownTimer < 0)
+            {
+                dashCooldownTimer = dashCooldown;
+                dashDir = xInput;
 
-        if (Input.GetButtonDown("Jump"))
-            Jump();
+                if (dashDir == 0)
+                    dashDir = facingDirection;
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            DashAbility();
-        }
-    }
-
-    private void StartAttack()
-    {
-        if (!isGrounded)
-            return;
-
-        if (comboTimeWindow < 0)
-            comboCounter = 0;
-
-        isAttacking = true;
-        comboTimeWindow = comboTime;
-    }
-
-    private void DashAbility()
-    {
-        if (dashCooldownTimer < 0 && !isAttacking)
-        {
-            dashCooldownTimer = dashCooldown;
-            dashTime = dashDuration;
+                stateMachine.ChangeState(dashState);
+            }
         }
     }
+
+    
+    public void zeroVelocity() => rb.velocity =  new Vector2 (0, 0);
 
     public void SetVelocity(float xVelocity, float yVelocity)
     {
         rb.velocity = new Vector2 (xVelocity, yVelocity);
     }
 
-    private void Jump()
-    {
-        if (isGrounded || jumpctr > 1)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            jumpctr--;
-        }
-    }
 
     
 
