@@ -5,22 +5,22 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
-    protected Rigidbody2D rb;
-    protected Animator anim;
-    protected bool isGrounded;
-    protected bool isWallDetected;
-    protected bool newIsGrounded;
-    protected float xInput;
-    protected int facingDirection = 1;
-    protected bool facingRight = true;
+    public Rigidbody2D rb { get; private set; }
+    public Animator anim { get; private set; }
+    public bool isGrounded { get; private set; }
+    public bool isWallDetected { get; private set; }
+    public bool newIsGrounded{ get; private set; }
+    public float xInput;
+    public int facingDirection = 1;
+    public bool facingRight = true;
 
     [Header("Collision Info")]
-    [SerializeField] protected float groundCheckDistance;
-    [SerializeField] protected LayerMask whatIsGround;
-    [SerializeField] protected Transform groundCheck;
+    [SerializeField] public float groundCheckDistance;
+    [SerializeField] public LayerMask whatIsGround;
+    [SerializeField] public Transform groundCheck;
     [Space]
-    [SerializeField] protected Transform wallCheck;
-    [SerializeField] protected float wallCheckDistance;
+    [SerializeField] public Transform wallCheck;
+    [SerializeField] public float wallCheckDistance;
     // Start is called before the first frame update
     protected virtual void Start()
     {
@@ -48,8 +48,6 @@ public class Entity : MonoBehaviour
 
     protected virtual void CollisionChecks()
     {
-        
-
         newIsGrounded = Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, whatIsGround);
         isWallDetected = Physics2D.Raycast(wallCheck.position,Vector2.right, wallCheckDistance * facingDirection, whatIsGround);
 
