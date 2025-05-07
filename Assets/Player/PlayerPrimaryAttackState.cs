@@ -18,6 +18,8 @@ public class PlayerPrimaryAttackState : PlayerState
     {
         base.Enter();
 
+        xInput = 0; // Bodge to fix attack direction not being correct on run
+
         if (comboCounter > 2 || Time.time >= lastTimeAttacked+comboWindow)
             comboCounter = 0;
 

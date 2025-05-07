@@ -8,6 +8,7 @@ public class SkeletonBattleState : EnemyState
     private EnemySkelly enemy;
     private Transform player;
     private int moveDir;
+    
     public SkeletonBattleState(Enemy _enemyBase, EnemyStateMachine stateMachine, string animBoolName, EnemySkelly enemy) : base(_enemyBase, stateMachine, animBoolName)
     {
         this.enemy = enemy;
@@ -16,11 +17,10 @@ public class SkeletonBattleState : EnemyState
     public override void Enter()
     {
         base.Enter();
-        Debug.Log("ATTACK");
-
         player = GameObject.Find("Player").transform;
     }
 
+    
     public override void Update()
     {
         base.Update();
@@ -29,6 +29,9 @@ public class SkeletonBattleState : EnemyState
         if (enemy.isPlayerDetected())
         {
             stateTimer = enemy.battleTime;
+
+            
+            
             if (enemy.isPlayerDetected().distance < enemy.attackDistance && canAttack())
             {
                 enemy.stateMachine.ChangeState(enemy.attackState);
@@ -39,7 +42,9 @@ public class SkeletonBattleState : EnemyState
         {
             
             if (stateTimer < 0 || Vector2.Distance(player.transform.position, enemy.transform.position) > 10)
+            {
                 enemy.stateMachine.ChangeState(enemy.idleState);
+            }
         }
 
         if (player.position.x > enemy.transform.position.x)
@@ -47,7 +52,7 @@ public class SkeletonBattleState : EnemyState
         else if (player.position.x < enemy.transform.position.x)
             moveDir = -1;
 
-        enemy.SetVelocity(enemy.moveSpeed * moveDir, rb.velocity.y);
+        enemy.SetVelocity(5 * moveDir, rb.velocity.y);
     }
 
     public override void Exit()
