@@ -16,9 +16,9 @@ public class PlayerAirState : PlayerState
     public override void Update()
     {
         base.Update();
-        if (player.isWallDetected)
+        if (player.IsWallDetected())
             stateMachine.ChangeState(player.wallSlideState);
-        if (player.isGrounded)
+        if (player.IsGroundDetected())
             stateMachine.ChangeState(player.idleState);
         if (xInput != 0)
             player.SetVelocity(player.moveSpeed*.8f*xInput,rb.velocity.y);

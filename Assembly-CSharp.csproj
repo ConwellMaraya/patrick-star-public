@@ -60,21 +60,31 @@
     <Analyzer Include="C:\Program Files\2022.3.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MiscScripts\ParallaxBackground.cs" />
+    <Compile Include="Assets\Enemy\Enemy.cs" />
     <Compile Include="Assets\Player\PlayerGroundedState.cs" />
+    <Compile Include="Assets\Enemy\EnemyStateMachine.cs" />
     <Compile Include="Assets\Player\PlayerDashState.cs" />
     <Compile Include="Assets\Player\PlayerMoveState.cs" />
     <Compile Include="Assets\Player\PlayerJumpState.cs" />
-    <Compile Include="Assets\EnemySkeleton.cs" />
+    <Compile Include="Assets\Enemy\EnemyState.cs" />
+    <Compile Include="Assets\Enemy\SkeletonAttackState.cs" />
+    <Compile Include="Assets\Enemy\EnemySkelly.cs" />
+    <Compile Include="Assets\MiscScripts\Entity.cs" />
     <Compile Include="Assets\Player\PlayerAirState.cs" />
     <Compile Include="Assets\Player\PlayerWallJumpState.cs" />
     <Compile Include="Assets\Player\PlayerAnimTriggers.cs" />
     <Compile Include="Assets\Player\PlayerStateMachine.cs" />
     <Compile Include="Assets\Player\PlayerWallSlideState.cs" />
     <Compile Include="Assets\Player\PlayerState.cs" />
+    <Compile Include="Assets\Enemy\SkeletonBattleState.cs" />
+    <Compile Include="Assets\Enemy\Enemy_SkellyAnimationTriggers.cs" />
+    <Compile Include="Assets\Enemy\SkeletonIdleState.cs" />
+    <Compile Include="Assets\Enemy\SkeletonMoveState.cs" />
     <Compile Include="Assets\Player\PlayerPrimaryAttackState.cs" />
     <Compile Include="Assets\Player\PlayerIdleState.cs" />
     <Compile Include="Assets\Player\Player.cs" />
-    <Compile Include="Assets\Entity.cs" />
+    <Compile Include="Assets\Enemy\SkeletonGroundedState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

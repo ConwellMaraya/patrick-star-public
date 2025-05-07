@@ -36,9 +36,9 @@ public class PlayerWallSlideState : PlayerState
        
 
         if (yInput < 0)
-            player.SetVelocity(rb.velocity.x, rb.velocity.y);
+            player.SetVelocity(0, rb.velocity.y);
         else
-            player.SetVelocity(rb.velocity.x, rb.velocity.y * .7f);
+            player.SetVelocity(0, rb.velocity.y * .7f);
 
         if (player.isGrounded)
             stateMachine.ChangeState(player.idleState);

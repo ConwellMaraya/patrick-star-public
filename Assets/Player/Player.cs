@@ -15,15 +15,14 @@ public class Player : Entity
     [SerializeField] public float dashSpeed;
     [SerializeField] public float dashDuration;
     [SerializeField] public float dashDir {get; private set;}
-    private float dashTime;
 
     [SerializeField] public float dashCooldown;
     [SerializeField] public float dashCooldownTimer;
 
     [Header("Attack Info")]
     public Vector2[] attackMovement;
+    
 
-    public Animator playerAnim { get; private set; }
     public bool isBusy { get; private set; }    
     #endregion Components
 
@@ -40,8 +39,9 @@ public class Player : Entity
     #endregion States
 
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         stateMachine = new PlayerStateMachine();
         idleState = new PlayerIdleState(this, stateMachine, "Idle");
         moveState = new PlayerMoveState(this, stateMachine, "Move");
@@ -57,23 +57,18 @@ public class Player : Entity
     {
         base.Start();
         jumpctr = maxJumps;
-        playerAnim = GetComponentInChildren<Animator>();
         stateMachine.Initialize(idleState);
-
-        
-        
     }
 
     protected override void Update()
     {
         base.Update();
         stateMachine.currentState.Update();
-        CheckInput();
-        Debug.Log(isWallDetected);
+        CheckDashInput();
 
 
 
-        FlipController();
+        
 
 
     }
@@ -87,6 +82,7 @@ public class Player : Entity
 
 
     public void AnimationTrigger() => stateMachine.currentState.finishAnim();
+   
 
     protected override void CollisionChecks()
     {
@@ -98,7 +94,7 @@ public class Player : Entity
         }
     }
 
-    private void CheckInput()
+    private void CheckDashInput()
     {
         xInput = Input.GetAxisRaw("Horizontal");
         dashCooldownTimer -= Time.deltaTime;
@@ -119,24 +115,12 @@ public class Player : Entity
     }
 
     
-    public void zeroVelocity() => rb.velocity =  new Vector2 (0, 0);
-
-    public void SetVelocity(float xVelocity, float yVelocity)
-    {
-        rb.velocity = new Vector2 (xVelocity, yVelocity);
-    }
+    
 
 
     
 
-    private void FlipController()
-    {
-        if (rb.velocity.x > 0 && !facingRight)
-            Flip();
-
-        else if (rb.velocity.x < 0 && facingRight)
-            Flip();
-    }
+    
 
     
 }
