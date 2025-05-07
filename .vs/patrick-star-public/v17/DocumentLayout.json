@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\miscscripts\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\miscscripts\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\player\\playeranimtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\playeranimtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerAnimTriggers.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerAnimTriggers.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\PlayerAnimTriggers.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerAnimTriggers.cs",
+              "RelativeToolTip": "Assets\\Player\\PlayerAnimTriggers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T05:10:28.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\Entity.cs",
+              "RelativeDocumentMoniker": "Assets\\MiscScripts\\Entity.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\Entity.cs",
+              "RelativeToolTip": "Assets\\MiscScripts\\Entity.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAYwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T05:05:37.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Enemy\\Enemy.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Enemy\\Enemy.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T05:04:50.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Player.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Player\\Player.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T05:04:46.213Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
