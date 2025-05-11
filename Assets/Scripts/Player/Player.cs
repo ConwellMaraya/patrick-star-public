@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Player : Entity
 {
@@ -41,8 +42,9 @@ public class Player : Entity
     public PlayerPrimaryAttackState primaryAttack { get; private set; }
     public PlayerCounterAttackState counterAttack { get; private set; }
 
-    public PlayerAimSwordState aimSword { get; private set; }
+    public PlayerAimSwordState aimSowrd { get; private set; }
     public PlayerCatchSwordState catchSword { get; private set; }
+    public PlayerBlackholeState blackHole { get; private set; }
     public PlayerDeadState deadState { get; private set; }
     #endregion
 
@@ -62,8 +64,9 @@ public class Player : Entity
         primaryAttack = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
         counterAttack = new PlayerCounterAttackState(this, stateMachine, "CounterAttack");
 
-        aimSword = new PlayerAimSwordState(this, stateMachine, "AimSword");
+        aimSowrd = new PlayerAimSwordState(this, stateMachine, "AimSword");
         catchSword = new PlayerCatchSwordState(this, stateMachine, "CatchSword");
+        blackHole = new PlayerBlackholeState(this, stateMachine, "Jump");
 
         deadState = new PlayerDeadState(this, stateMachine, "Die");
     }
@@ -75,7 +78,6 @@ public class Player : Entity
         skill = SkillManager.instance;
 
         stateMachine.Initialize(idleState);
-
 
         defaultMoveSpeed = moveSpeed;
         defaultJumpForce = jumpForce;
@@ -92,8 +94,11 @@ public class Player : Entity
         CheckForDashInput();
 
 
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F) && skill.crystal.crystalUnlocked)
             skill.crystal.CanUseSkill();
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+            Inventory.instance.UseFlask();
     }
 
     public override void SlowEntityBy(float _slowPercentage, float _slowDuration)
@@ -142,7 +147,8 @@ public class Player : Entity
         if (IsWallDetected())
             return;
 
-
+        if (skill.dash.dashUnlocked == false)
+            return;
 
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && SkillManager.instance.dash.CanUseSkill())
