@@ -22,6 +22,9 @@ public class PlayerGroundedState : PlayerState
     {
         base.Update();
 
+        if(Input.GetKeyDown(KeyCode.Q))
+            stateMachine.ChangeState(player.counterAttack);
+
         //For hold down attack, remove Down from GetKeyDown
         if (Input.GetKeyDown(KeyCode.Mouse0))
             stateMachine.ChangeState(player.primaryAttack);

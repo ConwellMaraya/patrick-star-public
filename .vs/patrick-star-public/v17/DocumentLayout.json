@@ -1,38 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\",
+  "WorkspaceRootPath": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\enemy\\skelly\\skeletonbattlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\skelly\\skeletonbattlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\bencr\\documents\\github\\patrick-star-public\\assets\\miscscripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\miscscripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\player\\playerprimaryattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\playerprimaryattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\bencr\\documents\\github\\patrick-star-public\\assets\\player\\playercounterattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\playercounterattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\enemy\\skelly\\enemy_skellyanimationtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\skelly\\enemy_skellyanimationtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\assets\\player\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\assets\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\assets\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\miscscripts\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\miscscripts\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\miscscripts\\entityfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\miscscripts\\entityfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\player\\playeranimtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\playeranimtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\assets\\enemy\\enemystatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemystatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,105 +39,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SkeletonBattleState.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Skelly\\SkeletonBattleState.cs",
-              "RelativeDocumentMoniker": "Assets\\Enemy\\Skelly\\SkeletonBattleState.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Skelly\\SkeletonBattleState.cs",
-              "RelativeToolTip": "Assets\\Enemy\\Skelly\\SkeletonBattleState.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAADYAAAA2AAAA",
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MiscScripts\\PlayerManager.cs",
+              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\PlayerManager.cs",
+              "RelativeToolTip": "Assets\\MiscScripts\\PlayerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T06:10:56.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerPrimaryAttackState.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerPrimaryAttackState.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\PlayerPrimaryAttackState.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerPrimaryAttackState.cs",
-              "RelativeToolTip": "Assets\\Player\\PlayerPrimaryAttackState.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T05:59:51.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerAnimTriggers.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerAnimTriggers.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\PlayerAnimTriggers.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerAnimTriggers.cs",
-              "RelativeToolTip": "Assets\\Player\\PlayerAnimTriggers.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T05:44:06.514Z",
+              "WhenOpened": "2025-05-11T04:02:16.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Enemy_SkellyAnimationTriggers.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Skelly\\Enemy_SkellyAnimationTriggers.cs",
-              "RelativeDocumentMoniker": "Assets\\Enemy\\Skelly\\Enemy_SkellyAnimationTriggers.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Skelly\\Enemy_SkellyAnimationTriggers.cs",
-              "RelativeToolTip": "Assets\\Enemy\\Skelly\\Enemy_SkellyAnimationTriggers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Title": "PlayerGroundedState.cs",
+              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerGroundedState.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\PlayerGroundedState.cs",
+              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerGroundedState.cs",
+              "RelativeToolTip": "Assets\\Player\\PlayerGroundedState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T05:41:02.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T01:56:33.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\Entity.cs",
-              "RelativeDocumentMoniker": "Assets\\MiscScripts\\Entity.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\Entity.cs",
-              "RelativeToolTip": "Assets\\MiscScripts\\Entity.cs",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAAAHoAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "PlayerCounterAttackState.cs",
+              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerCounterAttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\PlayerCounterAttackState.cs",
+              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerCounterAttackState.cs",
+              "RelativeToolTip": "Assets\\Player\\PlayerCounterAttackState.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowCIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T05:38:09.476Z",
+              "WhenOpened": "2025-05-11T01:43:59.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EntityFX.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\EntityFX.cs",
-              "RelativeDocumentMoniker": "Assets\\MiscScripts\\EntityFX.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\EntityFX.cs",
-              "RelativeToolTip": "Assets\\MiscScripts\\EntityFX.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Title": "EnemyStateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\EnemyStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Enemy\\EnemyStateMachine.cs",
+              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\EnemyStateMachine.cs",
+              "RelativeToolTip": "Assets\\Enemy\\EnemyStateMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T05:34:35.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T00:39:39.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\Player.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\Player.cs",
+              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\Player.cs",
               "RelativeToolTip": "Assets\\Player\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAACUAAAAAAAAAAAAzwDQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T05:31:24.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Enemy\\Enemy.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Enemy.cs",
+              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Enemy.cs",
               "RelativeToolTip": "Assets\\Enemy\\Enemy.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAACQAAAAAAAAAAAASwDYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T05:04:50.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T05:04:50.007Z"
             }
           ]
         }

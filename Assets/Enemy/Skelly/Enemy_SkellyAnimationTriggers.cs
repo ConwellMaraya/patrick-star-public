@@ -22,4 +22,7 @@ public class Enemy_SkellyAnimationTriggers : MonoBehaviour
 
         }
     }
+
+    protected void OpenCounterAttackWindow() => enemy.OpenCounterAttackWindow();
+    protected void CloseCounterAttackWindow() => enemy.CloseCounterAttackWindow();
 }
