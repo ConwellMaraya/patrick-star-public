@@ -89,6 +89,8 @@ public class Player : Entity
     {
         base.Update();
 
+        if (transform.position.y <= -90)
+            Die();
         stateMachine.currentState.Update();
 
         CheckForDashInput();
