@@ -1,7 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.ExceptionServices;
-using TMPro.EditorUtilities;
+using Unity.Burst.CompilerServices;
 using UnityEngine;
 
 public class Sword_Skill_Controller : MonoBehaviour
@@ -52,7 +50,7 @@ public class Sword_Skill_Controller : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void SetupSword(Vector2 _dir , float _gravityScale,Player _player,float _freezeTimeDuration,float _returnSpeed)
+    public void SetupSword(Vector2 _dir, float _gravityScale, Player _player, float _freezeTimeDuration, float _returnSpeed)
     {
         player = _player;
         freezeTimeDuration = _freezeTimeDuration;
@@ -61,14 +59,14 @@ public class Sword_Skill_Controller : MonoBehaviour
         rb.velocity = _dir;
         rb.gravityScale = _gravityScale;
 
-        if(pierceAmount <= 0)
+        if (pierceAmount <= 0)
             anim.SetBool("Rotation", true);
 
 
         Invoke("DestroyMe", 7);
     }
 
-    public void SetupBounce(bool _isBouncing, int _amountOfBounces,float _bounceSpeed)
+    public void SetupBounce(bool _isBouncing, int _amountOfBounces, float _bounceSpeed)
     {
         isBouncing = _isBouncing;
         bounceAmount = _amountOfBounces;
@@ -83,7 +81,7 @@ public class Sword_Skill_Controller : MonoBehaviour
         pierceAmount = _pierceAmount;
     }
 
-    public void SetupSpin(bool _isSpinning, float _maxTravelDistance, float _spinDuration,float _hitCooldown)
+    public void SetupSpin(bool _isSpinning, float _maxTravelDistance, float _spinDuration, float _hitCooldown)
     {
         isSpinning = _isSpinning;
         maxTravelDistance = _maxTravelDistance;
@@ -97,6 +95,9 @@ public class Sword_Skill_Controller : MonoBehaviour
         //rb.isKinematic = false;
         transform.parent = null;
         isReturning = true;
+
+
+        // sword.skill.setcooldown;
     }
 
     private void Update()
@@ -130,7 +131,8 @@ public class Sword_Skill_Controller : MonoBehaviour
             {
                 spinTimer -= Time.deltaTime;
 
-                transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x + 1, transform.position.y),2.4f * Time.deltaTime);
+
+               //transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x + 1 , transform.position.y), 2.4f * Time.deltaTime);
 
                 if (spinTimer < 0)
                 {
@@ -212,8 +214,22 @@ public class Sword_Skill_Controller : MonoBehaviour
 
     private void SwordSkillDamage(Enemy enemy)
     {
-        player.stats.DoDamage(enemy.GetComponent<CharacterStats>());
-        enemy.StartCoroutine("FreezeTimerFor", freezeTimeDuration);
+        EnemyStats enemyStats = enemy.GetComponent<EnemyStats>();
+
+        player.stats.DoDamage(enemyStats);
+
+        if(player.skill.sword.timeStopUnlocked)
+            enemy.FreezeTimeFor(freezeTimeDuration);
+
+        if (player.skill.sword.vulnerableUnlocked)
+            enemyStats.MakeVulnerableFor(freezeTimeDuration);
+            
+
+
+        ItemData_Equipment equipedAmulet = Inventory.instance.GetEquipment(EquipmentType.Amulet);
+
+        if (equipedAmulet != null)
+            equipedAmulet.Effect(enemy.transform);
     }
 
     private void SetupTargetsForBounce(Collider2D collision)
@@ -237,7 +253,7 @@ public class Sword_Skill_Controller : MonoBehaviour
     {
         if (pierceAmount > 0 && collision.GetComponent<Enemy>() != null)
         {
-            pierceAmount --;
+            pierceAmount--;
             return;
         }
 

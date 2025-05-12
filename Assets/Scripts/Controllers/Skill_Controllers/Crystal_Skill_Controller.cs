@@ -30,6 +30,15 @@ public class Crystal_Skill_Controller : MonoBehaviour
         closestTarget = _closestTarget;
     }
 
+    public void ChooseRandomEnemy()
+    {
+        float radius = SkillManager.instance.blackhole.GetBlackholeRadius();
+
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, radius,whatIsEnemy);
+
+        if(colliders.Length > 0)
+            closestTarget = colliders[Random.Range(0, colliders.Length)].transform;
+    }
 
 
     private void Update()
@@ -44,6 +53,9 @@ public class Crystal_Skill_Controller : MonoBehaviour
 
         if (canMove)
         {
+            if (closestTarget == null)
+                return;
+
             transform.position = Vector2.MoveTowards(transform.position, closestTarget.position, moveSpeed * Time.deltaTime);
 
             if (Vector2.Distance(transform.position, closestTarget.position) < 1)
@@ -64,7 +76,15 @@ public class Crystal_Skill_Controller : MonoBehaviour
         foreach (var hit in colliders)
         {
             if (hit.GetComponent<Enemy>() != null)
+            {
                 player.stats.DoMagicalDamage(hit.GetComponent<CharacterStats>());
+
+
+                ItemData_Equipment equipedAmulet = Inventory.instance.GetEquipment(EquipmentType.Amulet);
+
+                if (equipedAmulet != null)
+                    equipedAmulet.Effect(hit.transform);
+            }
         }
     }
 
