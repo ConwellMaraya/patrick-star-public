@@ -1,4 +1,4 @@
-# **Pintados**  
+# **Project PatrickStar**  
 A 2D Platformer Roguelike Desktop Game Made in Unity
 
 | **Internal Release Code** | **Date Released** |
