@@ -5,6 +5,26 @@ A 2D Platformer Roguelike Desktop Game Made in Unity
 |---------------------------|------------------|
 | PS.010.001                | 2025-03-12       |
 | PS.010.002                | 2025-04-09       |
+| PS.011.001                | 2025-05-15       |
+
+## PS.011.001 Release Notes
+- Added double jump
+- Added wall jump
+- Added wall slide
+- Added enemies
+- Updated movement logic to a full state machine
+- Cleaned files
+- Updated attack system
+- Added game level background
+- Added enemy hit detection
+- Added player hit detection
+- Added damage indication
+- Added parry mechanic
+- Added health and damage values to player
+- Added health and damage values to enemies
+- Added items
+- Added options
+- Added checkpoint saves
 
 ## PS.010.002 Release Notes
 - Added Dashing
