@@ -26,6 +26,7 @@ public class Player : Entity
 
     public SkillManager skill { get; private set; }
     public GameObject sword {  get ; private set; }
+    public GameObject canvas;
 
 
     #region States
@@ -52,6 +53,7 @@ public class Player : Entity
     {
         base.Awake();
         stateMachine = new PlayerStateMachine();
+        canvas = GameObject.Find("Canvas");
 
         idleState = new PlayerIdleState(this, stateMachine, "Idle");
         moveState = new PlayerMoveState(this, stateMachine, "Move");

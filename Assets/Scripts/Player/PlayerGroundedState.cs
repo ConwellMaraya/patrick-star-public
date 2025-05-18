@@ -22,6 +22,9 @@ public class PlayerGroundedState : PlayerState
     {
         base.Update();
 
+        if (player.canvas.GetComponent<UI>().pause)
+            return;
+
         if (Input.GetKeyDown(KeyCode.R) && player.skill.blackhole.blackholeUnlocked)
         {
             Debug.Log("IM CASTING BLAKSFA");

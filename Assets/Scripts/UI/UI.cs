@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,13 +19,15 @@ public class UI : MonoBehaviour
     [SerializeField] private GameObject optionsUI;
     [SerializeField] private GameObject inGameUI;
 
+    
+
 
 
     public UI_SkillToolTip skillToolTip;
     public UI_ItemTooltip itemToolTip;
     public UI_StatToolTip statToolTip;
     public UI_CraftWindow craftWindow;
-
+    public Boolean pause = false;
 
     private void Awake()
     {
@@ -42,14 +46,12 @@ public class UI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
+        
         if (Input.GetKeyDown(KeyCode.C))
             SwitchWithKeyTo(charcaterUI);
-
         if (Input.GetKeyDown(KeyCode.B))
             SwitchWithKeyTo(craftUI);
-        
-
         if (Input.GetKeyDown(KeyCode.K))
             SwitchWithKeyTo(skillTreeUI);
 
@@ -79,9 +81,13 @@ public class UI : MonoBehaviour
         {
             _menu.SetActive(false);
             CheckForInGameUI();
+            Time.timeScale = 1;
+            pause = false;
             return;
         }
 
+        Time.timeScale = 0;
+        pause = true;
         SwitchTo(_menu);
     }
 
