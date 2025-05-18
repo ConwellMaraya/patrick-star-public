@@ -3,22 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using System;
+using System.Text.RegularExpressions;
+using System.IO;
 
-public class SaveManager : MonoBehaviour
+public class SaveManager : MonoBehaviour 
 {
     public static SaveManager instance;
 
-    [SerializeField] private string fileName;
+    private string fileName = "data." + ReplaceWhitespace(Environment.UserName, "_");
+    private string filePath = "idbfs/" + ReplaceWhitespace(Environment.UserName,"_");
     [SerializeField] private bool encryptData;
     private GameData gameData;
     [SerializeField] private List<ISaveManager> saveManagers;
     private FileDataHandler dataHandler;
+    private bool saveDataExist = false;
 
 
     [ContextMenu("Delete save file")]
     public void DeleteSavedData()
     {
-        dataHandler = new FileDataHandler(Application.persistentDataPath, fileName,encryptData);
+        dataHandler = new FileDataHandler(filePath, fileName,encryptData);
         dataHandler.Delete();
 
     }
@@ -34,12 +39,19 @@ public class SaveManager : MonoBehaviour
 
     private void Start()
     {
-        dataHandler = new FileDataHandler(Application.persistentDataPath, fileName,encryptData);
+        dataHandler = new FileDataHandler(filePath, fileName,encryptData);
         saveManagers = FindAllSaveManagers();
 
+        if (Directory.Exists(filePath))
+            saveDataExist = true;
+
         //Invoke("LoadGame", .05f);
+
+
         
         LoadGame();
+
+        
         
         
     }
@@ -58,6 +70,8 @@ public class SaveManager : MonoBehaviour
             Debug.Log("No saved data found!");
             NewGame();
         }
+
+        
 
         foreach(ISaveManager saveManager in saveManagers)
         {
@@ -79,6 +93,7 @@ public class SaveManager : MonoBehaviour
     private void OnApplicationQuit()
     {
         SaveGame();
+        Debug.Log("Quited and Saveded");
     }
 
     private List<ISaveManager> FindAllSaveManagers()
@@ -90,11 +105,12 @@ public class SaveManager : MonoBehaviour
 
     public bool HasSavedData()
     {
-        if (dataHandler.Load() != null)
-        {
-            return true;
-        }
+        return saveDataExist;
+    }
 
-        return false;
+    private static readonly Regex sWhitespace = new Regex(@"\s+");
+    public static string ReplaceWhitespace(string input, string replacement)
+    {
+        return sWhitespace.Replace(input, replacement);
     }
 }

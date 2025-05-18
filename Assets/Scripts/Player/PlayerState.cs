@@ -32,8 +32,6 @@ public class PlayerState
 
     public virtual void Update()
     {
-        if (player.canvas.GetComponent<UI>().pause)
-            return;
         stateTimer -= Time.deltaTime;
 
         xInput = Input.GetAxisRaw("Horizontal");

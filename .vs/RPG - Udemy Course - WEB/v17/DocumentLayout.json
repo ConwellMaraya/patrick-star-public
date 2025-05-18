@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\A RPG Course - Files\\178 - PROJECT - Web Version\\RPG - Udemy Course - WEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F9A86B3-4707-396F-DFEF-C4871BE73621}|Assembly-CSharp.csproj|e:\\a rpg course - files\\178 - project - web version\\rpg - udemy course - web\\assets\\scripts\\items and inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F9A86B3-4707-396F-DFEF-C4871BE73621}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items and inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F9A86B3-4707-396F-DFEF-C4871BE73621}|Assembly-CSharp.csproj|e:\\a rpg course - files\\178 - project - web version\\rpg - udemy course - web\\assets\\scripts\\save and load\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F9A86B3-4707-396F-DFEF-C4871BE73621}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save and load\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "E:\\A RPG Course - Files\\178 - PROJECT - Web Version\\RPG - Udemy Course - WEB\\Assets\\Scripts\\Items and Inventory\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Items and Inventory\\Inventory.cs",
+              "ToolTip": "E:\\A RPG Course - Files\\178 - PROJECT - Web Version\\RPG - Udemy Course - WEB\\Assets\\Scripts\\Items and Inventory\\Inventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Items and Inventory\\Inventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:59:23.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SaveManager.cs",
+              "DocumentMoniker": "E:\\A RPG Course - Files\\178 - PROJECT - Web Version\\RPG - Udemy Course - WEB\\Assets\\Scripts\\Save and Load\\SaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Save and Load\\SaveManager.cs",
+              "ToolTip": "E:\\A RPG Course - Files\\178 - PROJECT - Web Version\\RPG - Udemy Course - WEB\\Assets\\Scripts\\Save and Load\\SaveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Save and Load\\SaveManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:59:22.622Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

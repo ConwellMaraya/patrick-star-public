@@ -22,12 +22,15 @@ public class PlayerGroundedState : PlayerState
     {
         base.Update();
 
-        if (player.canvas.GetComponent<UI>().pause)
-            return;
-
         if (Input.GetKeyDown(KeyCode.R) && player.skill.blackhole.blackholeUnlocked)
         {
-            Debug.Log("IM CASTING BLAKSFA");
+            if (player.skill.blackhole.cooldownTimer > 0)
+            {
+                player.fx.CreatePopUpText("Cooldown!");
+                return;
+            }
+
+
             stateMachine.ChangeState(player.blackHole);
         }
 

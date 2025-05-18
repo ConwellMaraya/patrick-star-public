@@ -26,7 +26,7 @@ public class Player : Entity
 
     public SkillManager skill { get; private set; }
     public GameObject sword {  get ; private set; }
-    public GameObject canvas;
+    public PlayerFX fx { get; private set; }
 
 
     #region States
@@ -53,7 +53,6 @@ public class Player : Entity
     {
         base.Awake();
         stateMachine = new PlayerStateMachine();
-        canvas = GameObject.Find("Canvas");
 
         idleState = new PlayerIdleState(this, stateMachine, "Idle");
         moveState = new PlayerMoveState(this, stateMachine, "Move");
@@ -77,6 +76,8 @@ public class Player : Entity
     {
         base.Start();
 
+        fx = GetComponent<PlayerFX>();
+
         skill = SkillManager.instance;
 
         stateMachine.Initialize(idleState);
@@ -89,10 +90,12 @@ public class Player : Entity
 
     protected override void Update()
     {
+
+        if (Time.timeScale == 0)
+            return;
+
         base.Update();
 
-        if (transform.position.y <= -90)
-            Die();
         stateMachine.currentState.Update();
 
         CheckForDashInput();
@@ -173,5 +176,10 @@ public class Player : Entity
         base.Die();
 
         stateMachine.ChangeState(deadState);
+    }
+
+    protected override void SetupZeroKnockbackPower()
+    {
+        knockbackPower = new Vector2(0, 0);
     }
 }

@@ -1,11 +1,8 @@
-using System;
 using System.Collections;
-using TMPro;
-using Unity.VisualScripting;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class UI : MonoBehaviour
+public class UI : MonoBehaviour, ISaveManager
 {
     [Header("End screen")]
     [SerializeField] private UI_FadeScreen fadeScreen;
@@ -19,18 +16,18 @@ public class UI : MonoBehaviour
     [SerializeField] private GameObject optionsUI;
     [SerializeField] private GameObject inGameUI;
 
-    
-
 
 
     public UI_SkillToolTip skillToolTip;
     public UI_ItemTooltip itemToolTip;
     public UI_StatToolTip statToolTip;
     public UI_CraftWindow craftWindow;
-    public Boolean pause = false;
+
+    [SerializeField] private UI_VolumeSlider[] volumeSettings;
 
     private void Awake()
     {
+
         SwitchTo(skillTreeUI); // we need this to assign events on skill tree slots before we asssign events on skill scripts
         fadeScreen.gameObject.SetActive(true);
     }
@@ -40,22 +37,24 @@ public class UI : MonoBehaviour
         SwitchTo(inGameUI);
 
         itemToolTip.gameObject.SetActive(false);
-        statToolTip.gameObject.SetActive(false);   
+        statToolTip.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        
+
         if (Input.GetKeyDown(KeyCode.C))
             SwitchWithKeyTo(charcaterUI);
+
         if (Input.GetKeyDown(KeyCode.B))
             SwitchWithKeyTo(craftUI);
+
+
         if (Input.GetKeyDown(KeyCode.K))
             SwitchWithKeyTo(skillTreeUI);
 
-        if(Input.GetKeyDown(KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.O))
             SwitchWithKeyTo(optionsUI);
     }
 
@@ -67,12 +66,26 @@ public class UI : MonoBehaviour
             bool fadeScreen = transform.GetChild(i).GetComponent<UI_FadeScreen>() != null; // we need this to keep fade screen game object active
 
 
-            if(fadeScreen == false)
+            if (fadeScreen == false)
                 transform.GetChild(i).gameObject.SetActive(false);
         }
 
+
+
         if (_menu != null)
+        {
+            AudioManager.instance.PlaySFX(5, null);
             _menu.SetActive(true);
+        }
+
+
+        if (GameManager.instance != null)
+        {
+            if (_menu == inGameUI)
+                GameManager.instance.PauseGame(false);
+            else
+                GameManager.instance.PauseGame(true);
+        }
     }
 
     public void SwitchWithKeyTo(GameObject _menu)
@@ -81,13 +94,9 @@ public class UI : MonoBehaviour
         {
             _menu.SetActive(false);
             CheckForInGameUI();
-            Time.timeScale = 1;
-            pause = false;
             return;
         }
 
-        Time.timeScale = 0;
-        pause = true;
         SwitchTo(_menu);
     }
 
@@ -118,4 +127,26 @@ public class UI : MonoBehaviour
     }
 
     public void RestartGameButton() => GameManager.instance.RestartScene();
+
+    public void LoadData(GameData _data)
+    {
+        foreach (KeyValuePair<string, float> pair in _data.volumeSettings)
+        {
+            foreach (UI_VolumeSlider item in volumeSettings)
+            {
+                if (item.parametr == pair.Key)
+                    item.LoadSlider(pair.Value);
+            }
+        }
+    }
+
+    public void SaveData(ref GameData _data)
+    {
+        _data.volumeSettings.Clear();
+
+        foreach (UI_VolumeSlider item in volumeSettings)
+        {
+            _data.volumeSettings.Add(item.parametr, item.slider.value);
+        }
+    }
 }

@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Items and Inventory\Effects\FreezeEnemies_Effect.cs" />
     <Compile Include="Assets\Scripts\UI\UI_ItemSlot.cs" />
     <Compile Include="Assets\Scripts\Controllers\Skill_Controllers\Blackhole_HotKey_Controller.cs" />
+    <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\InventoryItem.cs" />
     <Compile Include="Assets\Scripts\Skills\Skill.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerWallSlideState.cs" />
@@ -73,11 +74,13 @@
     <Compile Include="Assets\Scripts\Player\PlayerDashState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skeleton\SkeletonDeadState.cs" />
     <Compile Include="Assets\Scripts\UI\UI_StatToolTip.cs" />
+    <Compile Include="Assets\Scripts\Effects\AfterImageFX.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skeleton\SkeletonAttackState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skeleton\SkeletonMoveState.cs" />
     <Compile Include="Assets\Scripts\UI\UI_Options.cs" />
     <Compile Include="Assets\Scripts\Stats\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyState.cs" />
+    <Compile Include="Assets\Scripts\UI\UI_VolumeSlider.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\PlayerItemDrop.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerDeadState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skeleton\Enemy_Skeleton.cs" />
@@ -88,12 +91,14 @@
     <Compile Include="Assets\Scripts\Enemy\Skeleton\SkeletonGroundedState.cs" />
     <Compile Include="Assets\Scripts\Save and Load\GameData.cs" />
     <Compile Include="Assets\Scripts\UI\UI_CraftList.cs" />
+    <Compile Include="Assets\Scripts\AreaSound.cs" />
     <Compile Include="Assets\Scripts\UI\UI_ToolTip.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Controllers\IceAndFire_Controller.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerPrimaryAttackState.cs" />
     <Compile Include="Assets\Scripts\LostCurrencyController.cs" />
-    <Compile Include="Assets\Scripts\EntityFX.cs" />
+    <Compile Include="Assets\Scripts\Effects\EntityFX.cs" />
+    <Compile Include="Assets\Scripts\Effects\PopUpTextFx.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\Effects\ThunderStrike_Effect.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\ItemDrop.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerWallJumpState.cs" />
@@ -115,6 +120,7 @@
     <Compile Include="Assets\Scripts\Items and Inventory\Inventory.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\Effects\ItemEffect.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\ItemData.cs" />
+    <Compile Include="Assets\Scripts\Effects\PlayerFX.cs" />
     <Compile Include="Assets\Scripts\UI\UI_SkillTreeSlot.cs" />
     <Compile Include="Assets\Scripts\Managers\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\UI\UI_CraftSlot.cs" />
@@ -128,6 +134,7 @@
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Save and Load\ISaveManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMoveState.cs" />
+    <Compile Include="Assets\Scripts\Effects\ParallaxBackground.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAnimationTriggers.cs" />
     <Compile Include="Assets\Scripts\UI\UI_MainMenu.cs" />
     <Compile Include="Assets\Scripts\UI\UI_ItemTooltip.cs" />
@@ -137,6 +144,7 @@
     <Compile Include="Assets\Scripts\Enemy\Skeleton\SkeletonIdleState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerIdleState.cs" />
     <Compile Include="Assets\Scripts\Stats\Stat.cs" />
+    <Compile Include="Assets\Scripts\DeadZone.cs" />
     <Compile Include="Assets\Scripts\UI\UI_SkillToolTip.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCatchSwordState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerState.cs" />
@@ -150,7 +158,6 @@
     <Compile Include="Assets\Scripts\Controllers\Skill_Controllers\Clone_Skill_Controller.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\ItemObject.cs" />
     <Compile Include="Assets\Scripts\Skills\Sword_Skill.cs" />
-    <Compile Include="Assets\Scripts\ParallaxBackground.cs" />
     <Compile Include="Assets\Scripts\Skills\Dodge_Skill.cs" />
     <Compile Include="Assets\Scripts\Save and Load\SerializableDictionary.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\ItemData_Equipment.cs" />
@@ -516,7 +523,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">

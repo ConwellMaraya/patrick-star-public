@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.IO;
+using System.Text.RegularExpressions;
 
 public class FileDataHandler 
 {
@@ -10,7 +11,7 @@ public class FileDataHandler
     private string dataFileName = "";
 
     private bool encryptData = false;
-    private string codeWord = "alexdev";
+    private string codeWord = "pintados";
 
 
     public FileDataHandler(string _dataDirPath, string _dataFileName,bool _encryptData)
@@ -104,5 +105,11 @@ public class FileDataHandler
 
         return modifiedData;
 
+    }
+
+    private static readonly Regex sWhitespace = new Regex(@"\s+");
+    public static string ReplaceWhitespace(string input, string replacement)
+    {
+        return sWhitespace.Replace(input, replacement);
     }
 }

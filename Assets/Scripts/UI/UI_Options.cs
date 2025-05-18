@@ -15,4 +15,10 @@ public class UI_Options : MonoBehaviour
     {
         
     }
+
+    public void ExitGameOptions()
+    {
+        Debug.Log("Exit game");
+        Application.Quit();
+    }
 }
