@@ -7,7 +7,7 @@ public class PlayerManager : MonoBehaviour , ISaveManager
     public static PlayerManager instance;
     public Player player;
 
-    public int currency;
+    public int currency = 10000;
     private void Awake()
     {
         if (instance != null)

@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\player\\playerairstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerairstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\skills\\dash_skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skills\\dash_skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\player\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\player\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\player\\playerwallslidestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerwallslidestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\player\\playerwalljumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerwalljumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\player\\playerdashstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerdashstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerJumpState.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerJumpState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerJumpState.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerJumpState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerJumpState.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T03:49:26.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerWallSlideState.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerWallSlideState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerWallSlideState.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerWallSlideState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerWallSlideState.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAvwCcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T03:47:08.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerWallJumpState.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerWallJumpState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerWallJumpState.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerWallJumpState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerWallJumpState.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T03:46:43.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerAirState.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerAirState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAirState.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerAirState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerAirState.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Title": "Dash_Skill.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Skills\\Dash_Skill.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Skills\\Dash_Skill.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Skills\\Dash_Skill.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Skills\\Dash_Skill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T03:45:55.697Z",
+              "WhenOpened": "2025-05-19T06:42:06.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerGroundedState.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerGroundedState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerGroundedState.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerGroundedState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerGroundedState.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAnwDQAAAAJAAAA",
+              "Title": "PlayerDashState.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerDashState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerDashState.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerDashState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerDashState.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T03:44:33.454Z",
+              "WhenOpened": "2025-05-19T06:41:19.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
               "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFkAAAAaAAAA",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAwwAsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T03:43:53.865Z",
               "EditorCaption": ""
