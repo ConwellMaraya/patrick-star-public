@@ -89,13 +89,13 @@
             "8d3adcc2-b4da-42b1-8959-5ac7afb01f3f"
         ],
         "values": [
-            false,
-            false
+            true,
+            true
         ]
     },
-    "closestCheckpointId": "",
-    "lostCurrencyX": -8.09000015258789,
-    "lostCurrencyY": -2.6729230880737306,
+    "closestCheckpointId": "49972962-ab4f-4332-8ff8-656df73685c9",
+    "lostCurrencyX": 10.229533195495606,
+    "lostCurrencyY": -2.6728968620300295,
     "lostCurrencyAmount": 0,
     "volumeSettings": {
         "keys": [

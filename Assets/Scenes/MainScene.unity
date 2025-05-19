@@ -34495,6 +34495,8 @@ MonoBehaviour:
   moveSpeed: 8
   jumpForce: 14
   swordReturnImpact: 10
+  jumpctr: 0
+  jumpmax: 2
   dashSpeed: 25
   dashDuration: 0.2
 --- !u!4 &1195560130
@@ -34621,7 +34623,7 @@ MonoBehaviour:
     baseValue: 100
     modifiers: 
   armor:
-    baseValue: 50
+    baseValue: 0
     modifiers: 
   evasion:
     baseValue: 0

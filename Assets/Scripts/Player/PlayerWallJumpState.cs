@@ -29,6 +29,9 @@ public class PlayerWallJumpState : PlayerState
             stateMachine.ChangeState(player.airState);
 
         if (player.IsGroundDetected())
+        {
+            player.jumpctr = player.jumpmax;
             stateMachine.ChangeState(player.idleState);
+        }
     }
 }

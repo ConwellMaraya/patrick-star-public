@@ -41,7 +41,9 @@ public class PlayerWallSlideState : PlayerState
             rb.velocity = new Vector2(0, rb.velocity.y * .7f);
 
         if(player.IsGroundDetected())
-                stateMachine.ChangeState(player.idleState);
+        {
+            player.jumpctr = player.jumpmax;
+        }
 
     }
 
