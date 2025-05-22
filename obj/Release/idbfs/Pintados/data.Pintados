@@ -1,0 +1,110 @@
+{
+    "currency": 0,
+    "skillTree": {
+        "keys": [
+            "Blackhole",
+            "Mirage blink",
+            "Bullet sword",
+            "Crystal mirage",
+            "Multiple distruction",
+            "Sword Throw",
+            "Dash - \"Here I am\"",
+            "Dodge",
+            "Parry with a mirage",
+            "Dash - \"Actually here I am\"",
+            "Explosion",
+            "Aggresive mirage",
+            "Controlled destruction",
+            "Vulnerability",
+            "Multiple mirage",
+            "Bouncy sword",
+            "Chain saw sword",
+            "Crystal",
+            "Dodge mirage",
+            "Parry",
+            "Dash",
+            "Time stop",
+            "Time mirage",
+            "Restore with parry"
+        ],
+        "values": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false
+        ]
+    },
+    "inventory": {
+        "keys": [
+            "d8f58e18c1da00143accd968a6c18188",
+            "7ff875b0438473344864b67d284e3630",
+            "5ece859a2341cf24880a2aed82b76148",
+            "ba05fae8274d59a438bab968f91532ce",
+            "0dd5b227fb7b62541b0fbccda677392d",
+            "a6db18dbbf7476d4c82b3588f2b89f75",
+            "7d1998873a09b094e99b326bbbc9cccc",
+            "9209f5c03870ad140b30358835f156bb",
+            "80c04e02cab30284c834fcee3d24d83c",
+            "b1342fd16e2c376479833731e2df12f3",
+            "6835c34bd80fc9c468d2f549f4b6220a"
+        ],
+        "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            13,
+            12
+        ]
+    },
+    "equipmentId": [],
+    "checkpoints": {
+        "keys": [
+            "8d3adcc2-b4da-42b1-8959-5ac7afb01f3f",
+            "49972962-ab4f-4332-8ff8-656df73685c9"
+        ],
+        "values": [
+            false,
+            false
+        ]
+    },
+    "closestCheckpointId": "",
+    "lostCurrencyX": -6.6500043869018559,
+    "lostCurrencyY": -2.6729207038879396,
+    "lostCurrencyAmount": 0,
+    "volumeSettings": {
+        "keys": [
+            "sfx",
+            "bgm"
+        ],
+        "values": [
+            1.0,
+            1.0
+        ]
+    }
+}

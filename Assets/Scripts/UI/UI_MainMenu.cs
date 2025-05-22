@@ -6,16 +6,20 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Windows;
 using System.IO;
+using System.Threading;
 
 public class UI_MainMenu : MonoBehaviour
 {
     [SerializeField] private string sceneName = "MainScene";
     [SerializeField] private GameObject continueButton;
     [SerializeField] UI_FadeScreen fadeScreen;
-    private string filePath = "idbfs/" + ReplaceWhitespace(Environment.UserName, "_");
+    private string filePath;
 
     private void Start()
     {
+        GameObject Login = GameObject.Find("LoginStuff");
+        filePath = "idbfs/" + Login.GetComponent<LoginStuffScript>().userSaveName;
+        Debug.Log(filePath + " MENU");
         if (!System.IO.Directory.Exists(filePath))
             continueButton.SetActive(false);
     }
@@ -51,4 +55,12 @@ public class UI_MainMenu : MonoBehaviour
     {
         return sWhitespace.Replace(input, replacement);
     }
+
+    IEnumerator WaitWithDelayThenCondition(float delaySeconds)
+    {
+        yield return new WaitForSeconds(delaySeconds); // Delay first
+
+        Debug.Log("Delay passed and condition met!");
+    }
+
 }
