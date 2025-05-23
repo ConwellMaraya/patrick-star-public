@@ -241,6 +241,10 @@ MonoBehaviour:
   _pkce: 
   _token: 
   userSaveName: 
+  playerId: 
+  projectUrl: 
+  apiKey: 
+  tableName: saveStorage
 --- !u!4 &146289861
 Transform:
   m_ObjectHideFlags: 0
@@ -707,6 +711,7 @@ GameObject:
   - component: {fileID: 1262108816}
   - component: {fileID: 1262108815}
   - component: {fileID: 1262108817}
+  - component: {fileID: 1262108818}
   m_Layer: 5
   m_Name: SignInBox
   m_TagString: Untagged
@@ -791,6 +796,22 @@ MonoBehaviour:
   _doSignOut: 0
   _doExchangeCode: 0
   LoginDetails: {fileID: 146289859}
+  supabaseURL: 
+  supabaseKey: 
+--- !u!114 &1262108818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262108813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a29f2d52e0530a40ab601d2c088c06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  supabaseURL: https://ziluhantkwazbkwbypzv.supabase.co
+  supabaseKey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InppbHVoYW50a3dhemJrd2J5cHp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc2NDA0NjMsImV4cCI6MjA2MzIxNjQ2M30.-6JEJ8nraBFnAGQRTsqa7fLjkgedTJs_IBloRnsKsPw
 --- !u!1 &1335448028
 GameObject:
   m_ObjectHideFlags: 0

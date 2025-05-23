@@ -31,14 +31,17 @@ public class SupabaseGoogleSignIn : MonoBehaviour
     private string _pkce;
     private string _token;
     public GameObject LoginDetails;
-    public string supabaseURL = "https://ziluhantkwazbkwbypzv.supabase.co";
-    public string supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InppbHVoYW50a3dhemJrd2J5cHp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc2NDA0NjMsImV4cCI6MjA2MzIxNjQ2M30.-6JEJ8nraBFnAGQRTsqa7fLjkgedTJs_IBloRnsKsPw";
+    public string supabaseURL;
+    public string supabaseKey;
 
 
 
 
     async void Start()
     {
+        supabaseURL = GetComponent<SupabaseCredStorage>().supabaseURL;
+        supabaseKey = GetComponent<SupabaseCredStorage>().supabaseKey;
+        
         supabaseClient = await initializeSupabase();
     }
 
