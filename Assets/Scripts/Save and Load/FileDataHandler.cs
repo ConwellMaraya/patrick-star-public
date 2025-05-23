@@ -52,7 +52,6 @@ public class FileDataHandler
             {
                 string dataToLoad = File.ReadAllText(fullPath);
 
-                Debug.LogError(dataToLoad);
                 loadData = JsonConvert.DeserializeObject<GameData>(dataToLoad);
             }
             catch (Exception e)

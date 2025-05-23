@@ -25,10 +25,9 @@ public class SaveUpload
         };
 
         using var client = new HttpClient();
-        client.BaseAddress = new Uri(supabaseUrl);
+        client.BaseAddress = new Uri($"{supabaseUrl}/rest/v1/");
         client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
         client.DefaultRequestHeaders.Add("apikey", apiKey);
-        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
         var request = new HttpRequestMessage(HttpMethod.Delete, $"{tableName}?id=eq.{temp}");
         var response = await client.SendAsync(request);
@@ -37,6 +36,8 @@ public class SaveUpload
         var deleteContent = await response.Content.ReadAsStringAsync();
         UnityEngine.Debug.LogError(deleteContent);
 
+        client.BaseAddress = new Uri(supabaseUrl);
+        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         var content = new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(payload));
         content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 

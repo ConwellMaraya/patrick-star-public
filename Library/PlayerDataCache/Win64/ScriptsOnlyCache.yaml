@@ -45,6 +45,7 @@ ScriptsOnlyBuild:
     - SaveManager
     - ShockStrike_Controller
     - SkillManager
+    - SupabaseCredStorage
     - SupabaseGoogleSignIn
     - Sword_Skill
     - Sword_Skill_Controller
@@ -77,7 +78,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -315,13 +315,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5634}
     - Class: 114
-      Script: {instanceID: 6688}
+      Script: {instanceID: 6276}
     - Class: 114
-      Script: {instanceID: 7768}
+      Script: {instanceID: 6542}
     - Class: 114
-      Script: {instanceID: 8234}
+      Script: {instanceID: 6692}
     - Class: 114
-      Script: {instanceID: 10958}
+      Script: {instanceID: 7772}
+    - Class: 114
+      Script: {instanceID: 8238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -376,15 +378,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4066}
     - Class: 114
-      Script: {instanceID: 6688}
+      Script: {instanceID: 6276}
     - Class: 114
-      Script: {instanceID: 7372}
+      Script: {instanceID: 6692}
     - Class: 114
-      Script: {instanceID: 7768}
+      Script: {instanceID: 7376}
     - Class: 114
-      Script: {instanceID: 8234}
+      Script: {instanceID: 7772}
     - Class: 114
-      Script: {instanceID: 10958}
+      Script: {instanceID: 8238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -531,89 +533,89 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6212}
     - Class: 114
-      Script: {instanceID: 6388}
+      Script: {instanceID: 6276}
     - Class: 114
-      Script: {instanceID: 6412}
+      Script: {instanceID: 6390}
     - Class: 114
-      Script: {instanceID: 6500}
+      Script: {instanceID: 6414}
     - Class: 114
-      Script: {instanceID: 6504}
+      Script: {instanceID: 6502}
     - Class: 114
-      Script: {instanceID: 6578}
+      Script: {instanceID: 6506}
     - Class: 114
-      Script: {instanceID: 6586}
+      Script: {instanceID: 6582}
     - Class: 114
-      Script: {instanceID: 6610}
+      Script: {instanceID: 6590}
     - Class: 114
-      Script: {instanceID: 6688}
+      Script: {instanceID: 6614}
     - Class: 114
-      Script: {instanceID: 7272}
+      Script: {instanceID: 6692}
     - Class: 114
-      Script: {instanceID: 7440}
+      Script: {instanceID: 7276}
     - Class: 114
-      Script: {instanceID: 7466}
+      Script: {instanceID: 7444}
     - Class: 114
-      Script: {instanceID: 7566}
+      Script: {instanceID: 7470}
     - Class: 114
-      Script: {instanceID: 7762}
+      Script: {instanceID: 7570}
     - Class: 114
-      Script: {instanceID: 7768}
+      Script: {instanceID: 7766}
     - Class: 114
-      Script: {instanceID: 8092}
+      Script: {instanceID: 7772}
     - Class: 114
-      Script: {instanceID: 8148}
+      Script: {instanceID: 8096}
     - Class: 114
-      Script: {instanceID: 8234}
+      Script: {instanceID: 8152}
     - Class: 114
-      Script: {instanceID: 8306}
+      Script: {instanceID: 8238}
     - Class: 114
-      Script: {instanceID: 8312}
+      Script: {instanceID: 8310}
     - Class: 114
-      Script: {instanceID: 8374}
+      Script: {instanceID: 8316}
     - Class: 114
-      Script: {instanceID: 8384}
+      Script: {instanceID: 8378}
     - Class: 114
-      Script: {instanceID: 8592}
+      Script: {instanceID: 8388}
     - Class: 114
-      Script: {instanceID: 8670}
+      Script: {instanceID: 8596}
     - Class: 114
-      Script: {instanceID: 8758}
+      Script: {instanceID: 8674}
     - Class: 114
-      Script: {instanceID: 8860}
+      Script: {instanceID: 8762}
     - Class: 114
-      Script: {instanceID: 9060}
+      Script: {instanceID: 8864}
     - Class: 114
-      Script: {instanceID: 9062}
+      Script: {instanceID: 9064}
     - Class: 114
-      Script: {instanceID: 9100}
+      Script: {instanceID: 9066}
     - Class: 114
-      Script: {instanceID: 9304}
+      Script: {instanceID: 9104}
     - Class: 114
-      Script: {instanceID: 9326}
+      Script: {instanceID: 9308}
     - Class: 114
-      Script: {instanceID: 9370}
+      Script: {instanceID: 9330}
     - Class: 114
-      Script: {instanceID: 9542}
+      Script: {instanceID: 9374}
     - Class: 114
-      Script: {instanceID: 9684}
+      Script: {instanceID: 9546}
     - Class: 114
-      Script: {instanceID: 9692}
+      Script: {instanceID: 9688}
     - Class: 114
-      Script: {instanceID: 9768}
+      Script: {instanceID: 9696}
     - Class: 114
-      Script: {instanceID: 9788}
+      Script: {instanceID: 9772}
     - Class: 114
-      Script: {instanceID: 9828}
+      Script: {instanceID: 9792}
     - Class: 114
-      Script: {instanceID: 9840}
+      Script: {instanceID: 9832}
     - Class: 114
-      Script: {instanceID: 9888}
+      Script: {instanceID: 9844}
     - Class: 114
-      Script: {instanceID: 10306}
+      Script: {instanceID: 9892}
     - Class: 114
-      Script: {instanceID: 10480}
+      Script: {instanceID: 10310}
     - Class: 114
-      Script: {instanceID: 10958}
+      Script: {instanceID: 10484}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1537,6 +1539,12 @@ ScriptsOnlyBuild:
     className: CinemachineBlendListCamera
   - hash:
       serializedVersion: 2
+      Hash: a0c6578a0c08a3a8118a7b4098194826
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoginStuffScript
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: UniTask
     namespaceName: Cysharp.Threading.Tasks.Triggers
@@ -1631,6 +1639,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime
     namespaceName: UnityEngine.U2D.IK
     className: CCDSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: f47b19b3f798b4b5af1d337e73bf0a8a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SupabaseCredStorage
   - hash:
       serializedVersion: 2
       Hash: fe2e00ae3f24976c3f73e8ada895cd67
@@ -2399,12 +2413,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: a0c6578a0c08a3a8118a7b4098194826
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: LoginStuffScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/LoginScreen.unity

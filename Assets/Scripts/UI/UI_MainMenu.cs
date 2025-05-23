@@ -18,9 +18,9 @@ public class UI_MainMenu : MonoBehaviour
     private void Start()
     {
         GameObject Login = GameObject.Find("LoginStuff");
-        filePath = "idbfs/" + Login.GetComponent<LoginStuffScript>().userSaveName;
+        filePath = Application.persistentDataPath + "/" + "data.json";
         Debug.Log(filePath + " MENU");
-        if (!System.IO.Directory.Exists(filePath))
+        if (!System.IO.File.Exists(filePath))
             continueButton.SetActive(false);
     }
 
