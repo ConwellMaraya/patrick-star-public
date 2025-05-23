@@ -31,8 +31,10 @@ public class SupabaseGoogleSignIn : MonoBehaviour
     private string _pkce;
     private string _token;
     public GameObject LoginDetails;
+    public string supabaseURL = "https://ziluhantkwazbkwbypzv.supabase.co";
+    public string supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InppbHVoYW50a3dhemJrd2J5cHp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc2NDA0NjMsImV4cCI6MjA2MzIxNjQ2M30.-6JEJ8nraBFnAGQRTsqa7fLjkgedTJs_IBloRnsKsPw";
 
-    
+
 
 
     async void Start()
@@ -42,8 +44,7 @@ public class SupabaseGoogleSignIn : MonoBehaviour
 
     private async Task<Supabase.Client> initializeSupabase()
     {
-        string supabaseURL = "https://ziluhantkwazbkwbypzv.supabase.co";
-        string supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InppbHVoYW50a3dhemJrd2J5cHp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc2NDA0NjMsImV4cCI6MjA2MzIxNjQ2M30.-6JEJ8nraBFnAGQRTsqa7fLjkgedTJs_IBloRnsKsPw";
+        
 
         var clientOption = new Supabase.SupabaseOptions
         {
@@ -193,6 +194,8 @@ public class SupabaseGoogleSignIn : MonoBehaviour
                 Debug.Log(res);
                 LoginDetails.GetComponent<LoginStuffScript>()._pkce = _pkce;
                 LoginDetails.GetComponent<LoginStuffScript>()._token = _token;
+                LoginDetails.GetComponent<LoginStuffScript>().projectUrl = supabaseURL;
+                LoginDetails.GetComponent<LoginStuffScript>().apiKey = supabaseKey;
                 LoginDetails.GetComponent<LoginStuffScript>().userSaveName = ReplaceWhitespace(res,"_");
                 startstr = "\"id\":\"";
                 endstr = "\",\"identities\":";

@@ -315,13 +315,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5634}
     - Class: 114
-      Script: {instanceID: 6276}
+      Script: {instanceID: 6688}
     - Class: 114
-      Script: {instanceID: 6690}
+      Script: {instanceID: 7768}
     - Class: 114
-      Script: {instanceID: 7770}
+      Script: {instanceID: 8234}
     - Class: 114
-      Script: {instanceID: 8236}
+      Script: {instanceID: 10958}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -376,15 +376,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4066}
     - Class: 114
-      Script: {instanceID: 6276}
+      Script: {instanceID: 6688}
     - Class: 114
-      Script: {instanceID: 6690}
+      Script: {instanceID: 7372}
     - Class: 114
-      Script: {instanceID: 7374}
+      Script: {instanceID: 7768}
     - Class: 114
-      Script: {instanceID: 7770}
+      Script: {instanceID: 8234}
     - Class: 114
-      Script: {instanceID: 8236}
+      Script: {instanceID: 10958}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -531,51 +531,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6212}
     - Class: 114
-      Script: {instanceID: 6276}
+      Script: {instanceID: 6388}
     - Class: 114
-      Script: {instanceID: 6390}
+      Script: {instanceID: 6412}
     - Class: 114
-      Script: {instanceID: 6414}
+      Script: {instanceID: 6500}
     - Class: 114
-      Script: {instanceID: 6502}
+      Script: {instanceID: 6504}
     - Class: 114
-      Script: {instanceID: 6506}
+      Script: {instanceID: 6578}
     - Class: 114
-      Script: {instanceID: 6580}
+      Script: {instanceID: 6586}
     - Class: 114
-      Script: {instanceID: 6588}
+      Script: {instanceID: 6610}
     - Class: 114
-      Script: {instanceID: 6612}
+      Script: {instanceID: 6688}
     - Class: 114
-      Script: {instanceID: 6690}
+      Script: {instanceID: 7272}
     - Class: 114
-      Script: {instanceID: 7274}
+      Script: {instanceID: 7440}
     - Class: 114
-      Script: {instanceID: 7442}
+      Script: {instanceID: 7466}
     - Class: 114
-      Script: {instanceID: 7468}
+      Script: {instanceID: 7566}
     - Class: 114
-      Script: {instanceID: 7568}
+      Script: {instanceID: 7762}
     - Class: 114
-      Script: {instanceID: 7764}
+      Script: {instanceID: 7768}
     - Class: 114
-      Script: {instanceID: 7770}
+      Script: {instanceID: 8092}
     - Class: 114
-      Script: {instanceID: 8094}
+      Script: {instanceID: 8148}
     - Class: 114
-      Script: {instanceID: 8150}
+      Script: {instanceID: 8234}
     - Class: 114
-      Script: {instanceID: 8236}
+      Script: {instanceID: 8306}
     - Class: 114
-      Script: {instanceID: 8308}
+      Script: {instanceID: 8312}
     - Class: 114
-      Script: {instanceID: 8314}
+      Script: {instanceID: 8374}
     - Class: 114
-      Script: {instanceID: 8376}
+      Script: {instanceID: 8384}
     - Class: 114
-      Script: {instanceID: 8386}
-    - Class: 114
-      Script: {instanceID: 8594}
+      Script: {instanceID: 8592}
     - Class: 114
       Script: {instanceID: 8670}
     - Class: 114
@@ -614,6 +612,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10306}
     - Class: 114
       Script: {instanceID: 10480}
+    - Class: 114
+      Script: {instanceID: 10958}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -775,7 +775,7 @@ ScriptsOnlyBuild:
     className: PlayerFX
   - hash:
       serializedVersion: 2
-      Hash: 8f4075356cece82579f641277aaf7c32
+      Hash: 89189697fe2d631ddd71958467a8c378
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SupabaseGoogleSignIn
@@ -1117,7 +1117,7 @@ ScriptsOnlyBuild:
     className: CinemachineSmoothPath
   - hash:
       serializedVersion: 2
-      Hash: a7696a5110f386fc3399172b8c1f54cb
+      Hash: b389a2538a2eaf4ec4ed91c09d04070d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SaveManager
@@ -1535,12 +1535,6 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineBlendListCamera
-  - hash:
-      serializedVersion: 2
-      Hash: a0c6578a0c08a3a8118a7b4098194826
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: LoginStuffScript
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -2405,6 +2399,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a0c6578a0c08a3a8118a7b4098194826
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoginStuffScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/LoginScreen.unity

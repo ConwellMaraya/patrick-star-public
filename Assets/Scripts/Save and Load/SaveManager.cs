@@ -15,7 +15,6 @@ public class SaveManager : MonoBehaviour
 
     public string fileName;
     public string filePath;
-    [SerializeField] private bool encryptData;
     private GameData gameData;
     [SerializeField] private List<ISaveManager> saveManagers;
     private FileDataHandler dataHandler;
@@ -24,7 +23,7 @@ public class SaveManager : MonoBehaviour
     [ContextMenu("Delete save file")]
     public void DeleteSavedData()
     {
-        dataHandler = new FileDataHandler(filePath, fileName,encryptData);
+        dataHandler = new FileDataHandler(filePath, fileName);
         dataHandler.Delete();
     }
 
@@ -44,9 +43,9 @@ public class SaveManager : MonoBehaviour
         GameObject Login = GameObject.Find("LoginStuff");
         fileName = "data.json";
         filePath = Application.persistentDataPath;
-        Debug.Log(fileName + " SAVE MANAGER");
-        Debug.Log(filePath + " SAVE MANAGER");
-        dataHandler = new FileDataHandler(filePath, fileName,encryptData);
+        Debug.LogError(fileName + " SAVE MANAGER");
+        Debug.LogError(filePath + " SAVE MANAGER");
+        dataHandler = new FileDataHandler(filePath, fileName);
         saveManagers = FindAllSaveManagers();
 
         if (Directory.Exists(filePath))

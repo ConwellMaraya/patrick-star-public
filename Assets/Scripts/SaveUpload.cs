@@ -11,15 +11,17 @@ using UnityEngine;
 
 public class SaveUpload
 {
-    public static async Task UploadJsonFileAsync(string filePath, string documentName, string supabaseUrl, string apiKey, string tableName)
+    public static async Task UploadJsonFileAsync(string filePath, string documentName, string supabaseUrl, string apiKey, string tableName,string guid)
     {
         UnityEngine.Debug.LogError("Running");
         var jsonString = await File.ReadAllTextAsync(filePath);
+        Guid temp = new Guid(guid);
 
         var payload = new
         {
-            name = documentName,
-            data = Newtonsoft.Json.JsonConvert.DeserializeObject<object>(jsonString)
+            id = temp,
+            created_at = DateTime.UtcNow.ToString("o"),
+            saveGame = Newtonsoft.Json.JsonConvert.DeserializeObject<object>(jsonString)
         };
 
         using var client = new HttpClient();
@@ -28,10 +30,17 @@ public class SaveUpload
         client.DefaultRequestHeaders.Add("apikey", apiKey);
         client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
+        var request = new HttpRequestMessage(HttpMethod.Delete, $"{tableName}?id=eq.{temp}");
+        var response = await client.SendAsync(request);
+
+        UnityEngine.Debug.LogError($"Status: {response.StatusCode}");
+        var deleteContent = await response.Content.ReadAsStringAsync();
+        UnityEngine.Debug.LogError(deleteContent);
+
         var content = new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(payload));
         content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
-        var response = await client.PostAsync($"/rest/v1/{tableName}", content);
+        response = await client.PostAsync($"/rest/v1/{tableName}", content);
 
         if (response.IsSuccessStatusCode)
         {
