@@ -13,8 +13,8 @@ public class SaveManager : MonoBehaviour
     public static SaveManager instance;
 
 
-    private string fileName;
-    private string filePath;
+    public string fileName;
+    public string filePath;
     [SerializeField] private bool encryptData;
     private GameData gameData;
     [SerializeField] private List<ISaveManager> saveManagers;
@@ -42,8 +42,8 @@ public class SaveManager : MonoBehaviour
     private void Start()
     {
         GameObject Login = GameObject.Find("LoginStuff");
-        fileName = "data." + Login.GetComponent<LoginStuffScript>().userSaveName;
-        filePath = "idbfs/" + Login.GetComponent<LoginStuffScript>().userSaveName;
+        fileName = "data.json";
+        filePath = Application.persistentDataPath;
         Debug.Log(fileName + " SAVE MANAGER");
         Debug.Log(filePath + " SAVE MANAGER");
         dataHandler = new FileDataHandler(filePath, fileName,encryptData);
@@ -95,12 +95,6 @@ public class SaveManager : MonoBehaviour
         }
 
         dataHandler.Save(gameData);
-    }
-
-    private void OnApplicationQuit()
-    {
-        SaveGame();
-        Debug.Log("Quited and Saveded");
     }
 
     private List<ISaveManager> FindAllSaveManagers()

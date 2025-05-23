@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class UI_Options : MonoBehaviour
@@ -16,9 +17,20 @@ public class UI_Options : MonoBehaviour
         
     }
 
-    public void ExitGameOptions()
+    public async void ExitGameOptions()
     {
         Debug.Log("Exit game");
+#if UNITY_EDITOR
+        if (EditorApplication.isPlaying)
+        {
+            UnityEditor.EditorApplication.isPlaying = false;
+            return;
+        }
+#endif
+        GameObject Login = GameObject.Find("LoginStuff");
+        GameObject saveM = GameObject.Find("SaveManager");
+        saveM.GetComponent<SaveManager>().SaveGame();
+        await SaveUpload.UploadJsonFileAsync(saveM.GetComponent<SaveManager>().filePath, saveM.GetComponent<SaveManager>().fileName, Login.GetComponent<LoginStuffScript>().projectUrl, Login.GetComponent<LoginStuffScript>().apiKey, Login.GetComponent<LoginStuffScript>().tableName);
         Application.Quit();
     }
 }

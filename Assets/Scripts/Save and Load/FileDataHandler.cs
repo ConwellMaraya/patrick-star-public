@@ -12,6 +12,7 @@ public class FileDataHandler
 
     private bool encryptData = false;
     private string codeWord = "pintados";
+    public GameObject Login;
 
 
     public FileDataHandler(string _dataDirPath, string _dataFileName,bool _encryptData)
@@ -23,6 +24,7 @@ public class FileDataHandler
 
     public void Save(GameData _data)
     {
+        Login = GameObject.Find("LoginStuff");
         string fullPath = Path.Combine(dataDirPath, dataFileName);
 
         try
@@ -41,6 +43,7 @@ public class FileDataHandler
                     writer.Write(dataToStore);
                 }
             }
+            
         }
 
         catch(Exception e)
