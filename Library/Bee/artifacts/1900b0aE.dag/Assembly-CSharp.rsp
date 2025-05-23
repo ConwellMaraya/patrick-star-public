@@ -510,6 +510,7 @@
 "Assets/Scripts/Stats/EnemyStats.cs"
 "Assets/Scripts/Stats/PlayerStats.cs"
 "Assets/Scripts/Stats/Stat.cs"
+"Assets/Scripts/SupabaseCredStorage.cs"
 "Assets/Scripts/SupabaseGoogleSignIn.cs"
 "Assets/Scripts/UI/UI.cs"
 "Assets/Scripts/UI/UI_CraftList.cs"

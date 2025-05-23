@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\save and load\\filedatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save and load\\filedatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\save and load\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save and load\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\supabasecredstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\supabasecredstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\supabasegooglesignin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\supabasegooglesignin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\save and load\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save and load\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\save and load\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save and load\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\ui\\ui_options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\save and load\\filedatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save and load\\filedatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\ui\\ui_options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\save and load\\serializabledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\save and load\\serializabledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save and load\\serializabledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\saveupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\saveupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\saveupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\save and load\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save and load\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\player\\playerdashstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,8 +54,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SupabaseCredStorage.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\SupabaseCredStorage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SupabaseCredStorage.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\SupabaseCredStorage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SupabaseCredStorage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T14:46:38.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SupabaseGoogleSignIn.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\SupabaseGoogleSignIn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SupabaseGoogleSignIn.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\SupabaseGoogleSignIn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SupabaseGoogleSignIn.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACIAAADzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T09:13:01.9Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -60,14 +90,13 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_Options.cs",
               "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\UI_Options.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\UI_Options.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAB8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAB8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:18:56.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T14:18:56.521Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "GameData.cs",
               "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\GameData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Save and Load\\GameData.cs",
@@ -75,21 +104,19 @@
               "RelativeToolTip": "Assets\\Scripts\\Save and Load\\GameData.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:51:43.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T13:51:43.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "FileDataHandler.cs",
               "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\FileDataHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Save and Load\\FileDataHandler.cs",
               "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\FileDataHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\Save and Load\\FileDataHandler.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADYAAAArAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADQAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T11:40:53.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T11:40:53.887Z"
             },
             {
               "$type": "Document",
@@ -101,8 +128,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SaveUpload.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:18:49.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T14:18:49.007Z"
             },
             {
               "$type": "Document",
@@ -112,14 +138,13 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Save and Load\\SerializableDictionary.cs",
               "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\SerializableDictionary.cs",
               "RelativeToolTip": "Assets\\Scripts\\Save and Load\\SerializableDictionary.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:51:22.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T13:51:22.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SaveManager.cs",
               "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\SaveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Save and Load\\SaveManager.cs",
@@ -127,25 +152,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Save and Load\\SaveManager.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAewCkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T22:15:51.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T22:15:51.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SupabaseGoogleSignIn.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\SupabaseGoogleSignIn.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SupabaseGoogleSignIn.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\SupabaseGoogleSignIn.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SupabaseGoogleSignIn.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAwwB0AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T09:13:01.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Dash_Skill.cs",
               "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Skills\\Dash_Skill.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Skills\\Dash_Skill.cs",
@@ -153,12 +164,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Skills\\Dash_Skill.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T06:42:06.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T06:42:06.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PlayerDashState.cs",
               "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\PlayerDashState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerDashState.cs",
@@ -166,12 +176,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerDashState.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T06:41:19.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T06:41:19.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
@@ -179,8 +188,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
               "ViewState": "AQIAAJkAAAAAAAAAAAAwwAsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T03:43:53.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T03:43:53.865Z"
             }
           ]
         }

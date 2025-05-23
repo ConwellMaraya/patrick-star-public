@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\InventoryItem.cs" />
     <Compile Include="Assets\Scripts\Skills\Skill.cs" />
+    <Compile Include="Assets\Scripts\SupabaseCredStorage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerWallSlideState.cs" />
     <Compile Include="Assets\Scripts\Controllers\ThunderStrike_Controller.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\ItemObject_Trigger.cs" />
