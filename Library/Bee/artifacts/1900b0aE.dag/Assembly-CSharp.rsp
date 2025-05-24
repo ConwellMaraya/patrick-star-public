@@ -496,7 +496,7 @@
 "Assets/Scripts/Save and Load/ISaveManager.cs"
 "Assets/Scripts/Save and Load/SaveManager.cs"
 "Assets/Scripts/Save and Load/SerializableDictionary.cs"
-"Assets/Scripts/SaveUpload.cs"
+"Assets/Scripts/ServerSaveHandling.cs"
 "Assets/Scripts/Skills/Blackhole_Skill.cs"
 "Assets/Scripts/Skills/Clone_Skill.cs"
 "Assets/Scripts/Skills/Crystal_Skill.cs"

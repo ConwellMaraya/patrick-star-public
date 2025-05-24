@@ -18,6 +18,7 @@ public class UI_MainMenu : MonoBehaviour
     private void Start()
     {
         GameObject Login = GameObject.Find("LoginStuff");
+        GameObject saveM = GameObject.Find("SaveManager");
         filePath = Application.persistentDataPath + "/" + "data.json";
         Debug.Log(filePath + " MENU");
         if (!System.IO.File.Exists(filePath))

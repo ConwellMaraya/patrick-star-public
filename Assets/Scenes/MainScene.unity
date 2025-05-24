@@ -34611,7 +34611,7 @@ MonoBehaviour:
     baseValue: 5
     modifiers: 
   damage:
-    baseValue: 10
+    baseValue: 40
     modifiers: 
   critChance:
     baseValue: 100
@@ -60321,6 +60321,10 @@ MonoBehaviour:
   _pkce: 
   _token: 
   userSaveName: 
+  playerId: 
+  projectUrl: 
+  apiKey: 
+  tableName: saveStorage
 --- !u!4 &1923482204
 Transform:
   m_ObjectHideFlags: 0

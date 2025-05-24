@@ -31,7 +31,7 @@ public class UI_Options : MonoBehaviour
         GameObject saveM = GameObject.Find("SaveManager");
         saveM.GetComponent<SaveManager>().SaveGame();
         string combFilePath = saveM.GetComponent<SaveManager>().filePath + "/" + saveM.GetComponent<SaveManager>().fileName;
-        await SaveUpload.UploadJsonFileAsync(combFilePath, Login.GetComponent<LoginStuffScript>().userSaveName, Login.GetComponent<LoginStuffScript>().projectUrl, Login.GetComponent<LoginStuffScript>().apiKey, Login.GetComponent<LoginStuffScript>().tableName,Login.GetComponent<LoginStuffScript>().playerId);
+        await ServerSaveHandling.UploadJsonFileAsync(combFilePath, Login.GetComponent<LoginStuffScript>().userSaveName, Login.GetComponent<LoginStuffScript>().projectUrl, Login.GetComponent<LoginStuffScript>().apiKey, Login.GetComponent<LoginStuffScript>().tableName,Login.GetComponent<LoginStuffScript>().playerId);
         Application.Quit();
     }
 }

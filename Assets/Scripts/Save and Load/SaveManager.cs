@@ -38,7 +38,7 @@ public class SaveManager : MonoBehaviour
     }
 
 
-    private void Start()
+    private async void Start()
     {
         GameObject Login = GameObject.Find("LoginStuff");
         fileName = "data.json";
@@ -47,7 +47,8 @@ public class SaveManager : MonoBehaviour
         Debug.LogError(filePath + " SAVE MANAGER");
         dataHandler = new FileDataHandler(filePath, fileName);
         saveManagers = FindAllSaveManagers();
-
+        string savefilePath = Path.Combine(filePath, fileName);
+        await ServerSaveHandling.DownloadRowAsJsonAsync(savefilePath, Login.GetComponent<LoginStuffScript>().userSaveName, Login.GetComponent<LoginStuffScript>().projectUrl, Login.GetComponent<LoginStuffScript>().apiKey, Login.GetComponent<LoginStuffScript>().tableName, Login.GetComponent<LoginStuffScript>().playerId);
         if (Directory.Exists(filePath))
             saveDataExist = true;
 
