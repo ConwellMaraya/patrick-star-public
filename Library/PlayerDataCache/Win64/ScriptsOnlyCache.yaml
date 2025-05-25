@@ -21,6 +21,7 @@ ScriptsOnlyBuild:
     - Enemy_SkeletonAnimationTriggers
     - EntityFX
     - FreezeEnemies_Effect
+    - FullscreenToggleScript
     - GameManager
     - Heal_Effect
     - IceAndFire_Controller
@@ -118,8 +119,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -203,6 +206,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UI_VolumeSlider
     methodName: SliderValue
+  - assembly: Assembly-CSharp
+    fullTypeName: FullscreenToggleScript
+    methodName: OnValueChanged
   - assembly: Assembly-CSharp
     fullTypeName: UI
     methodName: SwitchTo
@@ -322,9 +328,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6692}
     - Class: 114
-      Script: {instanceID: 7772}
+      Script: {instanceID: 7774}
     - Class: 114
-      Script: {instanceID: 8238}
+      Script: {instanceID: 8240}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -385,9 +391,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7376}
     - Class: 114
-      Script: {instanceID: 7772}
+      Script: {instanceID: 7774}
     - Class: 114
-      Script: {instanceID: 8238}
+      Script: {instanceID: 8240}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -560,25 +566,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7570}
     - Class: 114
-      Script: {instanceID: 7766}
+      Script: {instanceID: 7768}
     - Class: 114
-      Script: {instanceID: 7772}
+      Script: {instanceID: 7774}
     - Class: 114
-      Script: {instanceID: 8096}
+      Script: {instanceID: 8098}
     - Class: 114
-      Script: {instanceID: 8152}
+      Script: {instanceID: 8154}
     - Class: 114
-      Script: {instanceID: 8238}
+      Script: {instanceID: 8240}
     - Class: 114
-      Script: {instanceID: 8310}
+      Script: {instanceID: 8312}
     - Class: 114
-      Script: {instanceID: 8316}
+      Script: {instanceID: 8318}
     - Class: 114
-      Script: {instanceID: 8378}
+      Script: {instanceID: 8380}
     - Class: 114
-      Script: {instanceID: 8388}
+      Script: {instanceID: 8390}
     - Class: 114
-      Script: {instanceID: 8596}
+      Script: {instanceID: 8598}
     - Class: 114
       Script: {instanceID: 8674}
     - Class: 114
@@ -617,6 +623,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10310}
     - Class: 114
       Script: {instanceID: 10484}
+    - Class: 114
+      Script: {instanceID: 31082}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2414,6 +2422,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FullscreenToggleScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/LoginScreen.unity
