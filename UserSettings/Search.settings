@@ -8,13 +8,11 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.DA949528" = ""
+	"OpenInspectorPreview.DA949528" = "0"
+	"currentGroup.DA949528" = "all"
 }
 providers = {
-	packages = {
-		active = true
-		priority = 90
-		defaultAction = null
-	}
 	adb = {
 		active = false
 		priority = 2500
@@ -23,6 +21,11 @@ providers = {
 	asset = {
 		active = true
 		priority = 25
+		defaultAction = null
+	}
+	store = {
+		active = true
+		priority = 100
 		defaultAction = null
 	}
 	find = {
@@ -35,9 +38,9 @@ providers = {
 		priority = 210
 		defaultAction = null
 	}
-	profilermarkers = {
-		active = false
-		priority = 100
+	packages = {
+		active = true
+		priority = 90
 		defaultAction = null
 	}
 	performance = {
@@ -45,14 +48,14 @@ providers = {
 		priority = 100
 		defaultAction = null
 	}
-	store = {
-		active = true
-		priority = 100
-		defaultAction = null
-	}
 	scene = {
 		active = true
 		priority = 50
+		defaultAction = null
+	}
+	profilermarkers = {
+		active = false
+		priority = 100
 		defaultAction = null
 	}
 }

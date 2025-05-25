@@ -24,7 +24,13 @@ public class PlayerGroundedState : PlayerState
 
         if (Input.GetKeyDown(KeyCode.R) && player.skill.blackhole.blackholeUnlocked)
         {
-            Debug.Log("IM CASTING BLAKSFA");
+            if (player.skill.blackhole.cooldownTimer > 0)
+            {
+                player.fx.CreatePopUpText("Cooldown!");
+                return;
+            }
+
+
             stateMachine.ChangeState(player.blackHole);
         }
 
@@ -40,8 +46,11 @@ public class PlayerGroundedState : PlayerState
         if (!player.IsGroundDetected())
             stateMachine.ChangeState(player.airState);
 
-        if (Input.GetKeyDown(KeyCode.Space) && player.IsGroundDetected())
+        if (Input.GetKeyDown(KeyCode.Space) && player.IsGroundDetected() || Input.GetKeyDown(KeyCode.Space) && player.jumpctr > 0)
+        {
+            player.jumpctr--;
             stateMachine.ChangeState(player.jumpState);
+        }
     }
 
     private bool HasNoSword()

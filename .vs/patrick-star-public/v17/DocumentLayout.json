@@ -3,42 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\stats\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stats\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\ui\\fullscreentogglescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\fullscreentogglescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\ui\\ui_healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\save and load\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save and load\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\serversavehandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\serversavehandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\save and load\\filedatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save and load\\filedatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\ui\\ui_options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\ui\\ui_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\save and load\\serializabledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save and load\\serializabledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\supabasecredstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\supabasecredstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\items and inventory\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items and inventory\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\test\\documents\\github\\patrick-star-public\\assets\\scripts\\items and inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items and inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\PlayerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerGroundedState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerCounterAttackState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\EnemyStateMachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,143 +50,130 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerStats.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Stats\\PlayerStats.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Stats\\PlayerStats.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Stats\\PlayerStats.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Stats\\PlayerStats.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAABoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T01:28:55.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Items and Inventory\\Inventory.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Items and Inventory\\Inventory.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Items and Inventory\\Inventory.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Items and Inventory\\Inventory.cs",
-              "ViewState": "AQIAAIYBAAAAAAAAAAAAAI4BAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T00:48:02.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ItemData.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Items and Inventory\\ItemData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Items and Inventory\\ItemData.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Items and Inventory\\ItemData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Items and Inventory\\ItemData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T00:47:30.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerManager.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Managers\\PlayerManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\PlayerManager.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Managers\\PlayerManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\PlayerManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Title": "UI_HealthBar.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\UI_HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_HealthBar.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\UI_HealthBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_HealthBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T00:45:55.333Z",
+              "WhenOpened": "2025-05-24T13:42:27.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FullscreenToggleScript.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\FullscreenToggleScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\FullscreenToggleScript.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\FullscreenToggleScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\FullscreenToggleScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T10:57:01.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
-              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFwAAAASAAAA",
+              "Title": "SaveManager.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\SaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Save and Load\\SaveManager.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\SaveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Save and Load\\SaveManager.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAC0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T00:31:51.947Z",
+              "WhenOpened": "2025-05-23T23:57:22.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PlayerManager.cs",
-              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\PlayerManager.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\PlayerManager.cs",
-              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\PlayerManager.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\MiscScripts\\PlayerManager.cs",
+              "Title": "UI_Options.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\UI_Options.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_Options.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\UI_Options.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_Options.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T04:02:16.556Z"
+              "WhenOpened": "2025-05-23T23:31:27.133Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PlayerGroundedState.cs",
-              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerGroundedState.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerGroundedState.cs",
-              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerGroundedState.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerGroundedState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
+              "Title": "UI_MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\UI_MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_MainMenu.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\UI_MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_MainMenu.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T01:56:33.613Z"
+              "WhenOpened": "2025-05-23T23:05:57.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlayerCounterAttackState.cs",
-              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerCounterAttackState.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerCounterAttackState.cs",
-              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerCounterAttackState.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\PlayerCounterAttackState.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowCIAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "FileDataHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\FileDataHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Save and Load\\FileDataHandler.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\FileDataHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Save and Load\\FileDataHandler.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAACcAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T01:43:59.143Z"
+              "WhenOpened": "2025-05-23T11:40:53.887Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "EnemyStateMachine.cs",
-              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\EnemyStateMachine.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\EnemyStateMachine.cs",
-              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\EnemyStateMachine.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\EnemyStateMachine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "SupabaseCredStorage.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\SupabaseCredStorage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SupabaseCredStorage.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\SupabaseCredStorage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SupabaseCredStorage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T00:39:39.725Z"
+              "WhenOpened": "2025-05-23T14:46:38.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServerSaveHandling.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\ServerSaveHandling.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ServerSaveHandling.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\ServerSaveHandling.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ServerSaveHandling.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAFAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T14:18:49.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SerializableDictionary.cs",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\SerializableDictionary.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Save and Load\\SerializableDictionary.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\SerializableDictionary.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Save and Load\\SerializableDictionary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T13:51:22.535Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\Player.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\Player.cs",
-              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\Player.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Player\\Player.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAzwDQAAABEAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAwwAsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T05:31:24.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Enemy.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Enemy.cs",
-              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Enemy.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAASwDYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T05:04:50.007Z"
+              "WhenOpened": "2025-05-19T03:43:53.865Z"
             }
           ]
         }

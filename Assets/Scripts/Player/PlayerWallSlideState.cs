@@ -22,6 +22,10 @@ public class PlayerWallSlideState : PlayerState
     {
         base.Update();
 
+        if (player.IsWallDetected() == false)
+            stateMachine.ChangeState(player.airState);
+
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             stateMachine.ChangeState(player.wallJump);
@@ -37,7 +41,9 @@ public class PlayerWallSlideState : PlayerState
             rb.velocity = new Vector2(0, rb.velocity.y * .7f);
 
         if(player.IsGroundDetected())
-                stateMachine.ChangeState(player.idleState);
+        {
+            player.jumpctr = player.jumpmax;
+        }
 
     }
 

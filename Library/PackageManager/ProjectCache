@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638826015212632558
-    m_Hash: 1745659593
+      ticks: 638832424299178293
+    m_Hash: 2496251687
   m_LockFileStatus:
     m_FilePath: C:/Users/Test/Documents/GitHub/patrick-star-public/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638826015212642587
-    m_Hash: 371316252
+      ticks: 638832424299248448
+    m_Hash: 2710309834
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,122 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/Test/Documents/GitHub/patrick-star-public/Packages
 m_EditorVersion: 2022.3.9f1 (ea401c316338)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@1.1.5
+- packageId: com.cysharp.unitask@https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
   testable: 0
   isDirectDependency: 1
-  version: 1.1.5
+  version: 2.5.10
+  source: 5
+  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.cysharp.unitask@f213ff497e
+  assetPath: Packages/com.cysharp.unitask
+  name: com.cysharp.unitask
+  displayName: UniTask
+  author:
+    name: Cysharp, Inc.
+    email: 
+    url: https://cysharp.co.jp/en/
+  category: Task
+  type: 
+  description: Provides an efficient async/await integration to Unity.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - async/await
+  - async
+  - Task
+  - UniTask
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.github-glitchenzo.nugetforunity@https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity
+  testable: 0
+  isDirectDependency: 1
+  version: 4.4.0
+  source: 5
+  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.github-glitchenzo.nugetforunity@f8f1902ebe
+  assetPath: Packages/com.github-glitchenzo.nugetforunity
+  name: com.github-glitchenzo.nugetforunity
+  displayName: NuGetForUnity
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A NuGet Package Manager for Unity
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - nuget
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://github.com/GlitchEnzo/NuGetForUnity
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ai.navigation@1.1.4
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.4
   source: 1
-  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.ai.navigation@1.1.5
+  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.ai.navigation@1.1.4
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -84,13 +194,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638319373850000000
+  datePublishedTicks: 638224218100000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: a905e1ab41c8afae1a75688ceb3b4dfa1686ea75
+    revision: 3e8d494400ccac6cbd90ee1b474470f4b1299bfa
     path: 
   unityLifecycle:
     version: 1.1.4
@@ -100,12 +210,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.cinemachine@2.10.1
+- packageId: com.unity.cinemachine@2.9.5
   testable: 0
   isDirectDependency: 1
-  version: 2.10.1
+  version: 2.9.5
   source: 1
-  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.cinemachine@2.10.1
+  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.cinemachine@2.9.5
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -114,7 +224,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: cinematography
-  type: assets
+  type: asset
   description: "Smart camera tools for passionate creators. \n\nNew starting from
     2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject
     menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version
@@ -271,13 +381,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638551642370000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.10/manual/index.html
+  datePublishedTicks: 638102365180000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
-    revision: 99f33a2a49de6506040887bf2cadade68d040e47
+    revision: 4b4405b9505ecfa1cb2d2b03df8f3309c12f3b0d
     path: 
   unityLifecycle:
     version: 2.9.5
@@ -287,12 +397,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.collab-proxy@2.5.2
+- packageId: com.unity.collab-proxy@2.3.1
   testable: 0
   isDirectDependency: 1
-  version: 2.5.2
+  version: 2.3.1
   source: 1
-  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.collab-proxy@2.5.2
+  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.collab-proxy@2.3.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -301,7 +411,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: 
+  type: assets
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting https://unity.com/solutions/version-control
@@ -433,13 +543,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638630364536670000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.5/manual/index.html
+  datePublishedTicks: 638448201880000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.3/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: c402e6396d3ea20ecb2d59eac908e7e0a30cd7e6
+    revision: 613362ccb4468f55ee42e0a35809fb9a61f3f8f1
     path: 
   unityLifecycle:
     version: 2.0.7
@@ -567,12 +677,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.31
+- packageId: com.unity.ide.rider@3.0.28
   testable: 0
   isDirectDependency: 1
-  version: 3.0.31
+  version: 3.0.28
   source: 1
-  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.ide.rider@3.0.31
+  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.ide.rider@3.0.28
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -664,13 +774,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638548308080000000
+  datePublishedTicks: 638447139880000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
+    revision: f4880c72477e9bbd7321c0dbda4428fa10d916df
     path: 
   unityLifecycle:
     version: 3.0.24
@@ -983,12 +1093,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.textmeshpro@3.0.7
+- packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
-  version: 3.0.7
+  version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.textmeshpro@3.0.7
+  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -997,7 +1107,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: assets
+  type: asset
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -1166,13 +1276,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638410382150000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
+  datePublishedTicks: 637547111200000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 5c364f204e10eaec84fcbff640ad4d833774c1ed
+    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
     path: 
   unityLifecycle:
     version: 3.0.6
@@ -1182,12 +1292,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.6
+- packageId: com.unity.timeline@1.7.5
   testable: 0
   isDirectDependency: 1
-  version: 1.7.6
+  version: 1.7.5
   source: 1
-  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.timeline@1.7.6
+  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.timeline@1.7.5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1340,13 +1450,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638326112840000000
+  datePublishedTicks: 638229649600000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 02f49ada64a9f88044207cf42ba407dc634ef8e6
+    revision: fdb1ca9a2c2a131e0ff9cb257b2eae3b53337b3a
     path: 
   unityLifecycle:
     version: 1.7.5
@@ -1428,12 +1538,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.visualscripting@1.9.4
+- packageId: com.unity.visualscripting@1.9.2
   testable: 0
   isDirectDependency: 1
-  version: 1.9.4
+  version: 1.9.2
   source: 1
-  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.visualscripting@1.9.4
+  resolvedPath: C:\Users\Test\Documents\GitHub\patrick-star-public\Library\PackageCache\com.unity.visualscripting@1.9.2
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1517,13 +1627,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638488567680000000
+  datePublishedTicks: 638452551610000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 41aac2b7038c2b1259c546329890d3736ce2394e
+    revision: 0dd874ef58a75ee4b4df6a81e65230e2602096a3
     path: 
   unityLifecycle:
     version: 1.9.0

@@ -16,6 +16,8 @@ public class Player : Entity
     public float swordReturnImpact;
     private float defaultMoveSpeed;
     private float defaultJumpForce;
+    public float jumpctr = 0;
+    public float jumpmax = 2;
 
     [Header("Dash info")]   
     public float dashSpeed;
@@ -26,6 +28,7 @@ public class Player : Entity
 
     public SkillManager skill { get; private set; }
     public GameObject sword {  get ; private set; }
+    public PlayerFX fx { get; private set; }
 
 
     #region States
@@ -75,6 +78,8 @@ public class Player : Entity
     {
         base.Start();
 
+        fx = GetComponent<PlayerFX>();
+
         skill = SkillManager.instance;
 
         stateMachine.Initialize(idleState);
@@ -82,15 +87,18 @@ public class Player : Entity
         defaultMoveSpeed = moveSpeed;
         defaultJumpForce = jumpForce;
         defaultDashSpeed = dashSpeed;
+        jumpctr = jumpmax;
     }
 
 
     protected override void Update()
     {
+
+        if (Time.timeScale == 0)
+            return;
+
         base.Update();
 
-        if (transform.position.y <= -90)
-            Die();
         stateMachine.currentState.Update();
 
         CheckForDashInput();
@@ -171,5 +179,10 @@ public class Player : Entity
         base.Die();
 
         stateMachine.ChangeState(deadState);
+    }
+
+    protected override void SetupZeroKnockbackPower()
+    {
+        knockbackPower = new Vector2(0, 0);
     }
 }

@@ -56,6 +56,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\es\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\it\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\de\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\zh-Hans\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\zh-Hant\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\pl\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\tr\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\ja\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\pt-BR\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\ru\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\ko\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\cs\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\fr\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <Analyzer Include="C:\Users\Test\Documents\GitHub\patrick-star-public\Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\Microsoft.Extensions.Logging.Generators.dll" />
     <Analyzer Include="C:\Program Files\2022.3.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\2022.3.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -64,8 +78,10 @@
     <Compile Include="Assets\Scripts\Items and Inventory\Effects\FreezeEnemies_Effect.cs" />
     <Compile Include="Assets\Scripts\UI\UI_ItemSlot.cs" />
     <Compile Include="Assets\Scripts\Controllers\Skill_Controllers\Blackhole_HotKey_Controller.cs" />
+    <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\InventoryItem.cs" />
     <Compile Include="Assets\Scripts\Skills\Skill.cs" />
+    <Compile Include="Assets\Scripts\SupabaseCredStorage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerWallSlideState.cs" />
     <Compile Include="Assets\Scripts\Controllers\ThunderStrike_Controller.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\ItemObject_Trigger.cs" />
@@ -73,28 +89,34 @@
     <Compile Include="Assets\Scripts\Player\PlayerDashState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skeleton\SkeletonDeadState.cs" />
     <Compile Include="Assets\Scripts\UI\UI_StatToolTip.cs" />
+    <Compile Include="Assets\Scripts\Effects\AfterImageFX.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skeleton\SkeletonAttackState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skeleton\SkeletonMoveState.cs" />
     <Compile Include="Assets\Scripts\UI\UI_Options.cs" />
     <Compile Include="Assets\Scripts\Stats\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyState.cs" />
+    <Compile Include="Assets\Scripts\UI\UI_VolumeSlider.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\PlayerItemDrop.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerDeadState.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skeleton\Enemy_Skeleton.cs" />
     <Compile Include="Assets\Scripts\Skills\Blackhole_Skill.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerJumpState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCounterAttackState.cs" />
+    <Compile Include="Assets\Scripts\LoginStuffScript.cs" />
     <Compile Include="Assets\Scripts\Skills\Parry_Skill.cs" />
     <Compile Include="Assets\Scripts\Enemy\Skeleton\SkeletonGroundedState.cs" />
     <Compile Include="Assets\Scripts\Save and Load\GameData.cs" />
     <Compile Include="Assets\Scripts\UI\UI_CraftList.cs" />
+    <Compile Include="Assets\Scripts\AreaSound.cs" />
     <Compile Include="Assets\Scripts\UI\UI_ToolTip.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Controllers\IceAndFire_Controller.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerPrimaryAttackState.cs" />
     <Compile Include="Assets\Scripts\LostCurrencyController.cs" />
-    <Compile Include="Assets\Scripts\EntityFX.cs" />
+    <Compile Include="Assets\Scripts\Effects\EntityFX.cs" />
+    <Compile Include="Assets\Scripts\Effects\PopUpTextFx.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\Effects\ThunderStrike_Effect.cs" />
+    <Compile Include="Assets\Scripts\ServerSaveHandling.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\ItemDrop.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerWallJumpState.cs" />
     <Compile Include="Assets\Scripts\Save and Load\FileDataHandler.cs" />
@@ -115,6 +137,7 @@
     <Compile Include="Assets\Scripts\Items and Inventory\Inventory.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\Effects\ItemEffect.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\ItemData.cs" />
+    <Compile Include="Assets\Scripts\Effects\PlayerFX.cs" />
     <Compile Include="Assets\Scripts\UI\UI_SkillTreeSlot.cs" />
     <Compile Include="Assets\Scripts\Managers\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\UI\UI_CraftSlot.cs" />
@@ -122,12 +145,15 @@
     <Compile Include="Assets\Scripts\Enemy\Skeleton\SkeletonBattleState.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyStateMachine.cs" />
     <Compile Include="Assets\Scripts\Stats\CharacterStats.cs" />
+    <Compile Include="Assets\Scripts\SupabaseGoogleSignIn.cs" />
     <Compile Include="Assets\Scripts\UI\UI_EquipmentSlot.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\Effects\Buff_Effect.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Save and Load\ISaveManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMoveState.cs" />
+    <Compile Include="Assets\Scripts\Effects\ParallaxBackground.cs" />
+    <Compile Include="Assets\Scripts\UI\FullscreenToggleScript.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAnimationTriggers.cs" />
     <Compile Include="Assets\Scripts\UI\UI_MainMenu.cs" />
     <Compile Include="Assets\Scripts\UI\UI_ItemTooltip.cs" />
@@ -137,6 +163,7 @@
     <Compile Include="Assets\Scripts\Enemy\Skeleton\SkeletonIdleState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerIdleState.cs" />
     <Compile Include="Assets\Scripts\Stats\Stat.cs" />
+    <Compile Include="Assets\Scripts\DeadZone.cs" />
     <Compile Include="Assets\Scripts\UI\UI_SkillToolTip.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCatchSwordState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerState.cs" />
@@ -150,33 +177,166 @@
     <Compile Include="Assets\Scripts\Controllers\Skill_Controllers\Clone_Skill_Controller.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\ItemObject.cs" />
     <Compile Include="Assets\Scripts\Skills\Sword_Skill.cs" />
-    <Compile Include="Assets\Scripts\ParallaxBackground.cs" />
     <Compile Include="Assets\Scripts\Skills\Dodge_Skill.cs" />
     <Compile Include="Assets\Scripts\Save and Load\SerializableDictionary.cs" />
     <Compile Include="Assets\Scripts\Items and Inventory\ItemData_Equipment.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Packages\System.Text.Encodings.Web.4.7.2\THIRD-PARTY-NOTICES.TXT" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\zh-Hans\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\LICENSE.TXT" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\ja\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\version.txt" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\zh-Hant\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\System.Threading.Channels.8.0.0\lib\netstandard2.1\System.Threading.Channels.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Packages\System.Text.Json.4.7.2\LICENSE.TXT" />
+    <None Include="Assets\Packages\realtime-csharp.6.0.4\lib\netstandard2.0\Supabase.Realtime.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\zh-Hant\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.IdentityModel.Abstractions.7.5.1\lib\netstandard2.0\Microsoft.IdentityModel.Abstractions.dll" />
+    <None Include="Assets\Packages\System.Text.Encodings.Web.4.7.2\LICENSE.TXT" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\pt-BR\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\System.Runtime.CompilerServices.Unsafe.4.7.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\ru\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Supabase.Postgrest.4.0.3\lib\netstandard2.0\Supabase.Postgrest.xml" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\pt-BR\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\LICENSE.TXT" />
+    <None Include="Assets\Packages\System.Text.Encodings.Web.4.7.2\version.txt" />
+    <None Include="Assets\Packages\Microsoft.IdentityModel.Logging.7.5.1\lib\netstandard2.0\Microsoft.IdentityModel.Logging.xml" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.xml" />
+    <None Include="Assets\Packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0\lib\netstandard2.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\ko\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\tr\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.xml" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\fr\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\functions-csharp.1.3.2\lib\netstandard2.0\Supabase.Functions.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0\useSharedDesignerContext.txt" />
+    <None Include="Assets\Packages\System.Security.Cryptography.Cng.4.5.0\useSharedDesignerContext.txt" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\pl\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\MimeMapping.3.0.1\lib\netstandard2.0\MimeMapping.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\ja\Microsoft.Extensions.Logging.Generators.resources.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\useSharedDesignerContext.txt" />
+    <None Include="Assets\Packages\gotrue-csharp.4.2.7\lib\netstandard2.0\Supabase.Gotrue.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\es\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\de\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\pt-BR\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\es\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\postgrest-csharp.3.5.1\lib\netstandard2.0\Supabase.Postgrest.xml" />
+    <None Include="Assets\Packages\System.Threading.Channels.8.0.0\useSharedDesignerContext.txt" />
+    <None Include="Assets\Packages\Supabase.Realtime.7.0.2\lib\netstandard2.1\Supabase.Realtime.xml" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\Microsoft.Extensions.Logging.Generators.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\zh-Hans\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\System.Text.Json.4.7.2\useSharedDesignerContext.txt" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\pl\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\it\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Supabase.Gotrue.6.0.3\lib\netstandard2.1\Supabase.Gotrue.xml" />
+    <None Include="Assets\Packages\System.Runtime.CompilerServices.Unsafe.4.7.1\LICENSE.TXT" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\tr\Microsoft.Extensions.Logging.Generators.resources.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Packages\Microsoft.IdentityModel.JsonWebTokens.7.5.1\lib\netstandard2.0\Microsoft.IdentityModel.JsonWebTokens.xml" />
+    <None Include="Assets\Packages\System.Text.Json.4.7.2\version.txt" />
+    <None Include="Assets\Packages\Microsoft.IO.RecyclableMemoryStream.3.0.0\lib\netstandard2.1\Microsoft.IO.RecyclableMemoryStream.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\ko\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Newtonsoft.Json.13.0.3\lib\netstandard2.0\Newtonsoft.Json.xml" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\THIRD-PARTY-NOTICES.TXT" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\pl\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\System.Text.Encodings.Web.4.7.2\useSharedDesignerContext.txt" />
+    <None Include="Assets\Packages\System.Security.Cryptography.Cng.4.5.0\version.txt" />
+    <None Include="Assets\Packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <None Include="Assets\Packages\Microsoft.IO.RecyclableMemoryStream.3.0.0\lib\netstandard2.1\Microsoft.IO.RecyclableMemoryStream.xml" />
+    <None Include="Assets\Packages\Microsoft.IdentityModel.Tokens.7.5.1\lib\netstandard2.0\Microsoft.IdentityModel.Tokens.dll" />
+    <None Include="Assets\Packages\Supabase.Storage.2.0.2\lib\netstandard2.0\Supabase.Storage.xml" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\fr\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\System.Runtime.CompilerServices.Unsafe.4.7.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml" />
+    <None Include="Assets\Packages\Microsoft.IdentityModel.Abstractions.7.5.1\lib\netstandard2.0\Microsoft.IdentityModel.Abstractions.xml" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\zh-Hant\Microsoft.Extensions.Logging.Generators.resources.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\cs\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Supabase.1.1.1\lib\netstandard2.1\Supabase.xml" />
+    <None Include="Assets\Packages\Supabase.Gotrue.6.0.3\lib\netstandard2.1\Supabase.Gotrue.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\zh-Hans\Microsoft.Extensions.Logging.Generators.resources.dll" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\de\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\Microsoft.Extensions.Logging.Generators.dll" />
+    <None Include="Assets\Packages\Supabase.Storage.2.0.2\lib\netstandard2.0\Supabase.Storage.dll" />
+    <None Include="Assets\Packages\System.Text.Json.4.7.2\lib\netstandard2.0\System.Text.Json.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\useSharedDesignerContext.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0\lib\netstandard2.1\Microsoft.Extensions.DependencyInjection.Abstractions.xml" />
+    <None Include="Assets\Packages\System.Runtime.CompilerServices.Unsafe.4.7.1\useSharedDesignerContext.txt" />
+    <None Include="Assets\Packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0\THIRD-PARTY-NOTICES.TXT" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Packages\MimeMapping.3.0.1\lib\netstandard2.0\MimeMapping.xml" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\ru\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\System.Text.Json.4.7.2\THIRD-PARTY-NOTICES.TXT" />
+    <None Include="Assets\Packages\System.Security.Cryptography.Cng.4.5.0\lib\netstandard2.0\System.Security.Cryptography.Cng.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\fr\Microsoft.Extensions.Logging.Generators.resources.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Packages\System.Reactive.6.0.0\lib\netstandard2.0\System.Reactive.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\es\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <None Include="Assets\Packages\supabase-csharp.0.16.2\lib\netstandard2.0\Supabase.xml" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\it\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\cs\Microsoft.Extensions.Logging.Generators.resources.dll" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Packages\postgrest-csharp.3.5.1\lib\netstandard2.0\Supabase.Postgrest.dll" />
+    <None Include="Assets\Packages\System.Text.Json.4.7.2\lib\netstandard2.0\System.Text.Json.dll" />
+    <None Include="Assets\Packages\System.Runtime.CompilerServices.Unsafe.4.7.1\version.txt" />
+    <None Include="Assets\Packages\Supabase.Realtime.7.0.2\lib\netstandard2.1\Supabase.Realtime.dll" />
+    <None Include="Assets\Packages\System.Reactive.6.0.0\lib\netstandard2.0\System.Reactive.xml" />
+    <None Include="Assets\Packages\supabase-csharp.0.16.2\lib\netstandard2.0\Supabase.dll" />
+    <None Include="Assets\Packages\Newtonsoft.Json.13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll" />
+    <None Include="Assets\Packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\THIRD-PARTY-NOTICES.TXT" />
+    <None Include="Assets\Packages\supabase-storage-csharp.1.4.0\lib\netstandard2.0\Supabase.Storage.xml" />
+    <None Include="Assets\Packages\Microsoft.IdentityModel.JsonWebTokens.7.5.1\lib\netstandard2.0\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <None Include="Assets\Packages\System.Text.Encodings.Web.4.7.2\lib\netstandard2.1\System.Text.Encodings.Web.xml" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\it\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Supabase.1.1.1\lib\netstandard2.1\Supabase.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\cs\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\ru\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\ko\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\supabase-core.0.0.3\lib\netstandard2.0\Supabase.Core.xml" />
+    <None Include="Assets\Packages\Supabase.Functions.2.0.0\lib\netstandard2.0\Supabase.Functions.dll" />
+    <None Include="Assets\Packages\gotrue-csharp.4.2.7\lib\netstandard2.0\Supabase.Gotrue.xml" />
+    <None Include="Assets\Packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0\LICENSE.TXT" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.0\cs\Microsoft.Extensions.Logging.Generators.dll" />
+    <None Include="Assets\Packages\Supabase.Functions.2.0.0\lib\netstandard2.0\Supabase.Functions.xml" />
+    <None Include="Assets\Packages\functions-csharp.1.3.2\lib\netstandard2.0\Supabase.Functions.xml" />
+    <None Include="Assets\Packages\System.Security.Cryptography.Cng.4.5.0\LICENSE.TXT" />
+    <None Include="Assets\Packages\Microsoft.IdentityModel.Logging.7.5.1\lib\netstandard2.0\Microsoft.IdentityModel.Logging.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\de\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\System.IdentityModel.Tokens.Jwt.7.5.1\lib\netstandard2.0\System.IdentityModel.Tokens.Jwt.xml" />
+    <None Include="Assets\Packages\Supabase.Postgrest.4.0.3\lib\netstandard2.0\Supabase.Postgrest.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Packages\Supabase.Core.1.0.0\lib\netstandard2.0\Supabase.Core.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Packages\System.Runtime.CompilerServices.Unsafe.4.7.1\THIRD-PARTY-NOTICES.TXT" />
+    <None Include="Assets\Packages\System.Text.Encodings.Web.4.7.2\lib\netstandard2.1\System.Text.Encodings.Web.dll" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn4.4\cs\tr\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\System.Threading.Channels.8.0.0\lib\netstandard2.1\System.Threading.Channels.dll" />
+    <None Include="Assets\Packages\Websocket.Client.5.1.1\lib\netstandard2.1\Websocket.Client.xml" />
+    <None Include="Assets\Packages\supabase-core.0.0.3\lib\netstandard2.0\Supabase.Core.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Packages\Websocket.Client.5.1.1\lib\netstandard2.1\Websocket.Client.dll" />
+    <None Include="Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\analyzers\dotnet\roslyn3.11\cs\ja\Microsoft.Extensions.Logging.Generators.resources.dll" />
+    <None Include="Assets\Packages\Supabase.Core.1.0.0\lib\netstandard2.0\Supabase.Core.xml" />
+    <None Include="Assets\Packages\Microsoft.IdentityModel.Tokens.7.5.1\lib\netstandard2.0\Microsoft.IdentityModel.Tokens.xml" />
+    <None Include="Assets\Packages\System.IdentityModel.Tokens.Jwt.7.5.1\lib\netstandard2.0\System.IdentityModel.Tokens.Jwt.dll" />
+    <None Include="Assets\Packages\realtime-csharp.6.0.4\lib\netstandard2.0\Supabase.Realtime.xml" />
+    <None Include="Assets\Packages\System.Threading.Channels.8.0.0\THIRD-PARTY-NOTICES.TXT" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Packages\supabase-storage-csharp.1.4.0\lib\netstandard2.0\Supabase.Storage.dll" />
+    <None Include="Assets\Packages\System.Security.Cryptography.Cng.4.5.0\THIRD-PARTY-NOTICES.TXT" />
+    <None Include="Assets\Packages\System.Threading.Channels.8.0.0\LICENSE.TXT" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -511,12 +671,112 @@
       <HintPath>C:\Program Files\2022.3.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Supabase.Realtime">
+      <HintPath>Assets\Packages\Supabase.Realtime.7.0.2\lib\netstandard2.1\Supabase.Realtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Microsoft.IdentityModel.Abstractions">
+      <HintPath>Assets\Packages\Microsoft.IdentityModel.Abstractions.7.5.1\lib\netstandard2.0\Microsoft.IdentityModel.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Packages\System.Runtime.CompilerServices.Unsafe.4.7.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>Assets\Packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.0\lib\netstandard2.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Supabase.Functions">
+      <HintPath>Assets\Packages\Supabase.Functions.2.0.0\lib\netstandard2.0\Supabase.Functions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MimeMapping">
+      <HintPath>Assets\Packages\MimeMapping.3.0.1\lib\netstandard2.0\MimeMapping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Supabase.Gotrue">
+      <HintPath>Assets\Packages\Supabase.Gotrue.6.0.3\lib\netstandard2.1\Supabase.Gotrue.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream">
+      <HintPath>Assets\Packages\Microsoft.IO.RecyclableMemoryStream.3.0.0\lib\netstandard2.1\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>Assets\Packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>Assets\Packages\Microsoft.IdentityModel.Tokens.7.5.1\lib\netstandard2.0\Microsoft.IdentityModel.Tokens.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Supabase.Storage">
+      <HintPath>Assets\Packages\Supabase.Storage.2.0.2\lib\netstandard2.0\Supabase.Storage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Cng">
+      <HintPath>Assets\Packages\System.Security.Cryptography.Cng.4.5.0\lib\netstandard2.0\System.Security.Cryptography.Cng.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>Assets\Packages\System.Reactive.6.0.0\lib\netstandard2.0\System.Reactive.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>Assets\Packages\Microsoft.Extensions.Logging.Abstractions.8.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Supabase.Postgrest">
+      <HintPath>Assets\Packages\Supabase.Postgrest.4.0.3\lib\netstandard2.0\Supabase.Postgrest.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>Assets\Packages\System.Text.Json.4.7.2\lib\netstandard2.0\System.Text.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Supabase">
+      <HintPath>Assets\Packages\Supabase.1.1.1\lib\netstandard2.1\Supabase.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Packages\Newtonsoft.Json.13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens">
+      <HintPath>Assets\Packages\Microsoft.IdentityModel.JsonWebTokens.7.5.1\lib\netstandard2.0\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging">
+      <HintPath>Assets\Packages\Microsoft.IdentityModel.Logging.7.5.1\lib\netstandard2.0\Microsoft.IdentityModel.Logging.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Supabase.Core">
+      <HintPath>Assets\Packages\Supabase.Core.1.0.0\lib\netstandard2.0\Supabase.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>Assets\Packages\System.Text.Encodings.Web.4.7.2\lib\netstandard2.1\System.Text.Encodings.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Channels">
+      <HintPath>Assets\Packages\System.Threading.Channels.8.0.0\lib\netstandard2.1\System.Threading.Channels.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Websocket.Client">
+      <HintPath>Assets\Packages\Websocket.Client.5.1.1\lib\netstandard2.1\Websocket.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>Assets\Packages\System.IdentityModel.Tokens.Jwt.7.5.1\lib\netstandard2.0\System.IdentityModel.Tokens.Jwt.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1011,10 +1271,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="PsdPlugin">
-      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
       <Private>False</Private>
@@ -1027,16 +1283,84 @@
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NuGetForUnity">
+      <HintPath>Library\ScriptAssemblies\NuGetForUnity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.2D.Common.Path.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\UniTask.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
@@ -1045,6 +1369,14 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.DOTween">
+      <HintPath>Library\ScriptAssemblies\UniTask.DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.Addressables">
+      <HintPath>Library\ScriptAssemblies\UniTask.Addressables.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
@@ -1063,72 +1395,48 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Aseprite.Common">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.005">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.Linq">
+      <HintPath>Library\ScriptAssemblies\UniTask.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.005">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Collections">
-      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
@@ -1139,20 +1447,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics">
@@ -1163,36 +1459,28 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Aseprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    <Reference Include="UniTask">
+      <HintPath>Library\ScriptAssemblies\UniTask.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Cinemachine">
       <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
@@ -1201,10 +1489,6 @@
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
