@@ -38,6 +38,8 @@ public class UI : MonoBehaviour, ISaveManager
 
         itemToolTip.gameObject.SetActive(false);
         statToolTip.gameObject.SetActive(false);
+
+        //gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -56,7 +58,11 @@ public class UI : MonoBehaviour, ISaveManager
 
         if (Input.GetKeyDown(KeyCode.O))
             SwitchWithKeyTo(optionsUI);
+
+       
+
     }
+
 
     public void SwitchTo(GameObject _menu)
     {

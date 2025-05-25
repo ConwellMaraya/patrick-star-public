@@ -22,22 +22,12 @@ public class PlayerAirState : PlayerState
     {
         base.Update();
 
-        
-        
+
         if (player.IsWallDetected())
             stateMachine.ChangeState(player.wallSlide);
 
-        if (rb.velocity.y < 0 && Input.GetKeyDown(KeyCode.Space) && player.jumpctr > 0)
-        {
-            player.jumpctr--;
-            stateMachine.ChangeState(player.jumpState);
-        }
-
-        if (player.IsGroundDetected())
-        {
-            player.jumpctr = player.jumpmax;
+        if(player.IsGroundDetected())
             stateMachine.ChangeState(player.idleState);
-        }
 
         if (xInput != 0) 
             player.SetVelocity(player.moveSpeed * .8f * xInput, rb.velocity.y);
