@@ -47,8 +47,6 @@ public class SupabaseGoogleSignIn : MonoBehaviour
 
     private async Task<Supabase.Client> initializeSupabase()
     {
-        
-
         var clientOption = new Supabase.SupabaseOptions
         {
             AutoRefreshToken = true,
@@ -57,7 +55,9 @@ public class SupabaseGoogleSignIn : MonoBehaviour
         };
         var client = new Supabase.Client(supabaseURL, supabaseKey, clientOption);
         await client.InitializeAsync();
+        
         Debug.Log("SUPABASE WORKS");
+        transform.GetChild(1).gameObject.SetActive(true);
         return client;
     }
 

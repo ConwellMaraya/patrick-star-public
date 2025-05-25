@@ -10,9 +10,10 @@ using System.Threading;
 
 public class UI_MainMenu : MonoBehaviour
 {
-    [SerializeField] private string sceneName = "MainScene";
+    [SerializeField] private string sceneName;
     [SerializeField] private GameObject continueButton;
     [SerializeField] UI_FadeScreen fadeScreen;
+    [SerializeField] private GameObject gameManager;
     private string filePath;
 
     private void Start()
@@ -27,13 +28,13 @@ public class UI_MainMenu : MonoBehaviour
 
     public void ContinueGame()
     {
-        StartCoroutine(LoadSceneWithFadeEffect(1.5f));
+        StartCoroutine(LoadSceneWithFadeEffect(1.5f, gameManager.GetComponent<GameManager>().levelCounter));
     }
 
     public void NewGame()
     {
         SaveManager.instance.DeleteSavedData();
-        StartCoroutine(LoadSceneWithFadeEffect(1.5f));
+        StartCoroutine(LoadSceneWithFadeEffect(1.5f,0));
     }
 
     public void ExitGame()
@@ -42,12 +43,16 @@ public class UI_MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-    IEnumerator LoadSceneWithFadeEffect(float _delay)
+    IEnumerator LoadSceneWithFadeEffect(float _delay, int levelCounter)
     {
         fadeScreen.FadeOut();
 
         yield return new WaitForSeconds(_delay);
 
+        if (levelCounter == 4)
+            sceneName = "Boss Level";
+        else 
+            sceneName = "Level" + gameManager.GetComponent<GameManager>().currLevel.ToString();
         SceneManager.LoadScene(sceneName);
     }
 

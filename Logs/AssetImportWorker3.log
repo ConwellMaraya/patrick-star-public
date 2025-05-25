@@ -1,0 +1,2091 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 23761 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Test/Documents/GitHub/patrick-star-public
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51519
+Successfully changed project path to: C:/Users/Test/Documents/GitHub/patrick-star-public
+C:/Users/Test/Documents/GitHub/patrick-star-public
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [45676] Host "[IP] 169.254.130.64 [Port] 0 [Flags] 2 [Guid] 1302273886 [EditorId] 1302273886 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-05AVRVMV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [45676] Host "[IP] 169.254.130.64 [Port] 0 [Flags] 2 [Guid] 1302273886 [EditorId] 1302273886 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-05AVRVMV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 889.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Test/Documents/GitHub/patrick-star-public/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.6603
+Initialize mono
+Mono path[0] = 'C:/Program Files/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028189 seconds.
+- Loaded All Assemblies, in  0.576 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.334 seconds
+Domain Reload Profiling: 901ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (196ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (334ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (252ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.512 seconds
+Refreshing native plugins compatible for Editor in 67.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.180 seconds
+Domain Reload Profiling: 4667ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (2027ms)
+		LoadAssemblies (1801ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (385ms)
+			TypeCache.Refresh (343ms)
+				TypeCache.ScanAssembly (312ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2181ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1968ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (1693ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 84.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4667 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 159 unused Assets / (178.3 KB). Loaded Objects now: 5053.
+Memory consumption went from 156.5 MB to 156.3 MB.
+Total: 6.222900 ms (FindLiveObjects: 0.398800 ms CreateObjectMapping: 0.339600 ms MarkObjects: 5.040100 ms  DeleteObjects: 0.443400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.294 seconds
+Refreshing native plugins compatible for Editor in 88.01 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.807 seconds
+Domain Reload Profiling: 5078ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (1845ms)
+		LoadAssemblies (1929ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2807ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1027ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (201ms)
+			ProcessInitializeOnLoadAttributes (708ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (34ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 79.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.3 KB). Loaded Objects now: 5071.
+Memory consumption went from 150.4 MB to 150.3 MB.
+Total: 5.120700 ms (FindLiveObjects: 0.327400 ms CreateObjectMapping: 0.138900 ms MarkObjects: 4.445800 ms  DeleteObjects: 0.207200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 280484.322343 seconds.
+  path: Assets/Scripts/Managers/PersistenceAudioManager.cs
+  artifactKey: Guid(67c87a790630aaa448011e7f31267912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/PersistenceAudioManager.cs using Guid(67c87a790630aaa448011e7f31267912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753f25c6e35a5e744c902cda43ac4042') in 0.006822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.396 seconds
+Refreshing native plugins compatible for Editor in 66.65 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.867 seconds
+Domain Reload Profiling: 5235ms
+	BeginReloadAssembly (310ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (140ms)
+	LoadAllAssembliesAndSetupDomain (1845ms)
+		LoadAssemblies (1966ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1036ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (271ms)
+			ProcessInitializeOnLoadAttributes (638ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (35ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Script is not up to date after domain reload: guid(67c87a790630aaa448011e7f31267912) path("Assets/Scripts/Managers/PersistenceAudioManager.cs") state(2)
+Refreshing native plugins compatible for Editor in 60.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4640 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.3 KB). Loaded Objects now: 5086.
+Memory consumption went from 150.2 MB to 150.0 MB.
+Total: 3.987500 ms (FindLiveObjects: 0.353100 ms CreateObjectMapping: 0.129600 ms MarkObjects: 3.359500 ms  DeleteObjects: 0.144500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  1.942 seconds
+Refreshing native plugins compatible for Editor in 59.55 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.938 seconds
+Domain Reload Profiling: 3853ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (1499ms)
+		LoadAssemblies (1599ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1938ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (747ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (511ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 59.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.2 KB). Loaded Objects now: 5103.
+Memory consumption went from 150.4 MB to 150.3 MB.
+Total: 4.686100 ms (FindLiveObjects: 0.356600 ms CreateObjectMapping: 0.141300 ms MarkObjects: 3.968500 ms  DeleteObjects: 0.218300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37.277229 seconds.
+  path: Assets/Scripts/Managers/PersistenceAudioManager.cs
+  artifactKey: Guid(67c87a790630aaa448011e7f31267912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/PersistenceAudioManager.cs using Guid(67c87a790630aaa448011e7f31267912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23331371fe255c4ad3b135417316a21c') in 0.002431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.236 seconds
+Refreshing native plugins compatible for Editor in 94.88 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.712 seconds
+Domain Reload Profiling: 4923ms
+	BeginReloadAssembly (325ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (1712ms)
+		LoadAssemblies (1871ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2712ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1012ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (217ms)
+			ProcessInitializeOnLoadAttributes (691ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 80.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4641 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.3 KB). Loaded Objects now: 5119.
+Memory consumption went from 150.2 MB to 150.1 MB.
+Total: 6.799700 ms (FindLiveObjects: 0.705200 ms CreateObjectMapping: 0.437800 ms MarkObjects: 5.431200 ms  DeleteObjects: 0.224300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  1.881 seconds
+Refreshing native plugins compatible for Editor in 55.92 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.300 seconds
+Domain Reload Profiling: 4162ms
+	BeginReloadAssembly (255ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (1466ms)
+		LoadAssemblies (1586ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2301ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (919ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (642ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (37ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 70.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.3 KB). Loaded Objects now: 5135.
+Memory consumption went from 150.4 MB to 150.3 MB.
+Total: 5.441900 ms (FindLiveObjects: 0.334600 ms CreateObjectMapping: 0.285300 ms MarkObjects: 4.616200 ms  DeleteObjects: 0.204600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.103 seconds
+Refreshing native plugins compatible for Editor in 52.00 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.708 seconds
+Domain Reload Profiling: 4792ms
+	BeginReloadAssembly (370ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (144ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (1556ms)
+		LoadAssemblies (1665ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2709ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (678ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 51.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.5 KB). Loaded Objects now: 5151.
+Memory consumption went from 150.5 MB to 150.3 MB.
+Total: 4.876400 ms (FindLiveObjects: 0.342100 ms CreateObjectMapping: 0.261000 ms MarkObjects: 4.115000 ms  DeleteObjects: 0.157400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.030 seconds
+Refreshing native plugins compatible for Editor in 64.34 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.267 seconds
+Domain Reload Profiling: 4276ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (106ms)
+	LoadAllAssembliesAndSetupDomain (1623ms)
+		LoadAssemblies (1727ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2268ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (807ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (553ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 50.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.3 KB). Loaded Objects now: 5167.
+Memory consumption went from 150.5 MB to 150.4 MB.
+Total: 4.628800 ms (FindLiveObjects: 0.325600 ms CreateObjectMapping: 0.312800 ms MarkObjects: 3.826000 ms  DeleteObjects: 0.163600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.145 seconds
+Refreshing native plugins compatible for Editor in 57.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.119 seconds
+Domain Reload Profiling: 4244ms
+	BeginReloadAssembly (303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (143ms)
+	LoadAllAssembliesAndSetupDomain (1619ms)
+		LoadAssemblies (1761ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2120ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (873ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (597ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 67.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.4 KB). Loaded Objects now: 5183.
+Memory consumption went from 150.5 MB to 150.4 MB.
+Total: 5.293300 ms (FindLiveObjects: 0.361100 ms CreateObjectMapping: 0.441000 ms MarkObjects: 4.270300 ms  DeleteObjects: 0.219700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.249 seconds
+Refreshing native plugins compatible for Editor in 66.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.500 seconds
+Domain Reload Profiling: 4725ms
+	BeginReloadAssembly (279ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (122ms)
+	LoadAllAssembliesAndSetupDomain (1763ms)
+		LoadAssemblies (1876ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (969ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (169ms)
+			ProcessInitializeOnLoadAttributes (677ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (46ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 66.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.4 KB). Loaded Objects now: 5199.
+Memory consumption went from 150.5 MB to 150.4 MB.
+Total: 5.435100 ms (FindLiveObjects: 0.389200 ms CreateObjectMapping: 0.186200 ms MarkObjects: 4.474100 ms  DeleteObjects: 0.384100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  1.683 seconds
+Refreshing native plugins compatible for Editor in 51.97 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.745 seconds
+Domain Reload Profiling: 3410ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (1291ms)
+		LoadAssemblies (1385ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1746ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (640ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (436ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 51.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.4 KB). Loaded Objects now: 5215.
+Memory consumption went from 150.5 MB to 150.3 MB.
+Total: 4.560100 ms (FindLiveObjects: 0.388800 ms CreateObjectMapping: 0.368600 ms MarkObjects: 3.520900 ms  DeleteObjects: 0.280300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.159 seconds
+Refreshing native plugins compatible for Editor in 59.73 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.633 seconds
+Domain Reload Profiling: 4772ms
+	BeginReloadAssembly (283ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (122ms)
+	LoadAllAssembliesAndSetupDomain (1668ms)
+		LoadAssemblies (1807ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2633ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (983ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (201ms)
+			ProcessInitializeOnLoadAttributes (669ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (35ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 64.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.4 KB). Loaded Objects now: 5231.
+Memory consumption went from 150.5 MB to 150.4 MB.
+Total: 4.381200 ms (FindLiveObjects: 0.358300 ms CreateObjectMapping: 0.288800 ms MarkObjects: 3.576700 ms  DeleteObjects: 0.156200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  1.867 seconds
+Refreshing native plugins compatible for Editor in 52.32 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.825 seconds
+Domain Reload Profiling: 3675ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (1454ms)
+		LoadAssemblies (1548ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1826ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (651ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (448ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 51.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.4 KB). Loaded Objects now: 5247.
+Memory consumption went from 150.6 MB to 150.4 MB.
+Total: 4.266600 ms (FindLiveObjects: 0.316100 ms CreateObjectMapping: 0.251700 ms MarkObjects: 3.547600 ms  DeleteObjects: 0.150300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.073 seconds
+Refreshing native plugins compatible for Editor in 60.60 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.903 seconds
+Domain Reload Profiling: 3951ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (147ms)
+	LoadAllAssembliesAndSetupDomain (1578ms)
+		LoadAssemblies (1676ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1904ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (672ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (455ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 55.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.4 KB). Loaded Objects now: 5263.
+Memory consumption went from 150.6 MB to 150.4 MB.
+Total: 4.334300 ms (FindLiveObjects: 0.390300 ms CreateObjectMapping: 0.140400 ms MarkObjects: 3.655300 ms  DeleteObjects: 0.146900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  1.791 seconds
+Refreshing native plugins compatible for Editor in 68.61 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.035 seconds
+Domain Reload Profiling: 4810ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (1412ms)
+		LoadAssemblies (1510ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3036ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (1160ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (29ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 57.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.4 KB). Loaded Objects now: 5279.
+Memory consumption went from 150.6 MB to 150.4 MB.
+Total: 4.797800 ms (FindLiveObjects: 0.537400 ms CreateObjectMapping: 0.339200 ms MarkObjects: 3.689700 ms  DeleteObjects: 0.230600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.055 seconds
+Refreshing native plugins compatible for Editor in 62.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.432 seconds
+Domain Reload Profiling: 4468ms
+	BeginReloadAssembly (255ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (1620ms)
+		LoadAssemblies (1744ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (900ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (614ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (38ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 90.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.5 KB). Loaded Objects now: 5295.
+Memory consumption went from 150.5 MB to 150.4 MB.
+Total: 14.437000 ms (FindLiveObjects: 1.067700 ms CreateObjectMapping: 0.551200 ms MarkObjects: 12.577100 ms  DeleteObjects: 0.239700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15046.042075 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620a4776e73bdaabdd2ef80fba7811b3') in 0.066521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  1.997 seconds
+Refreshing native plugins compatible for Editor in 58.27 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.531 seconds
+Domain Reload Profiling: 4503ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (131ms)
+	LoadAllAssembliesAndSetupDomain (1538ms)
+		LoadAssemblies (1631ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2531ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (737ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (508ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 53.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4641 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.5 KB). Loaded Objects now: 5312.
+Memory consumption went from 150.3 MB to 150.2 MB.
+Total: 4.043500 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.130900 ms MarkObjects: 3.414400 ms  DeleteObjects: 0.144000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.722 seconds
+Refreshing native plugins compatible for Editor in 65.81 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.472 seconds
+Domain Reload Profiling: 5167ms
+	BeginReloadAssembly (338ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (160ms)
+	LoadAllAssembliesAndSetupDomain (2123ms)
+		LoadAssemblies (2279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2473ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1000ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (709ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 79.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.5 KB). Loaded Objects now: 5328.
+Memory consumption went from 150.6 MB to 150.5 MB.
+Total: 7.133600 ms (FindLiveObjects: 0.704300 ms CreateObjectMapping: 0.549600 ms MarkObjects: 5.671600 ms  DeleteObjects: 0.206400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.602 seconds
+Refreshing native plugins compatible for Editor in 71.89 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.745 seconds
+Domain Reload Profiling: 5316ms
+	BeginReloadAssembly (343ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (172ms)
+	LoadAllAssembliesAndSetupDomain (1978ms)
+		LoadAssemblies (2124ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2745ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1062ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (726ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 75.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.5 KB). Loaded Objects now: 5344.
+Memory consumption went from 150.9 MB to 150.7 MB.
+Total: 7.610000 ms (FindLiveObjects: 1.396300 ms CreateObjectMapping: 0.542200 ms MarkObjects: 5.431000 ms  DeleteObjects: 0.238700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.873 seconds
+Refreshing native plugins compatible for Editor in 92.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.519 seconds
+Domain Reload Profiling: 5356ms
+	BeginReloadAssembly (452ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (160ms)
+	LoadAllAssembliesAndSetupDomain (2133ms)
+		LoadAssemblies (2376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2520ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (915ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (616ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 71.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.3 KB). Loaded Objects now: 5360.
+Memory consumption went from 150.9 MB to 150.7 MB.
+Total: 6.684300 ms (FindLiveObjects: 0.830100 ms CreateObjectMapping: 0.456500 ms MarkObjects: 5.189200 ms  DeleteObjects: 0.207100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.756 seconds
+Refreshing native plugins compatible for Editor in 71.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.625 seconds
+Domain Reload Profiling: 5349ms
+	BeginReloadAssembly (340ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (155ms)
+	LoadAllAssembliesAndSetupDomain (2159ms)
+		LoadAssemblies (2290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2626ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (974ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (214ms)
+			ProcessInitializeOnLoadAttributes (651ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 67.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.4 KB). Loaded Objects now: 5376.
+Memory consumption went from 150.8 MB to 150.7 MB.
+Total: 5.901000 ms (FindLiveObjects: 0.360100 ms CreateObjectMapping: 0.297500 ms MarkObjects: 5.086400 ms  DeleteObjects: 0.156300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.133 seconds
+Refreshing native plugins compatible for Editor in 56.70 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.058 seconds
+Domain Reload Profiling: 4164ms
+	BeginReloadAssembly (297ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (1617ms)
+		LoadAssemblies (1736ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2058ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (799ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (524ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 58.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.4 KB). Loaded Objects now: 5392.
+Memory consumption went from 150.9 MB to 150.7 MB.
+Total: 4.603000 ms (FindLiveObjects: 0.392600 ms CreateObjectMapping: 0.352400 ms MarkObjects: 3.651600 ms  DeleteObjects: 0.205500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  1.937 seconds
+Refreshing native plugins compatible for Editor in 64.31 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.307 seconds
+Domain Reload Profiling: 4223ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (1546ms)
+		LoadAssemblies (1655ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (962ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (186ms)
+			ProcessInitializeOnLoadAttributes (658ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (37ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 81.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.4 KB). Loaded Objects now: 5408.
+Memory consumption went from 150.9 MB to 150.8 MB.
+Total: 6.758300 ms (FindLiveObjects: 0.710100 ms CreateObjectMapping: 0.424500 ms MarkObjects: 5.398000 ms  DeleteObjects: 0.224200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  1.927 seconds
+Refreshing native plugins compatible for Editor in 60.09 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.227 seconds
+Domain Reload Profiling: 4135ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (1510ms)
+		LoadAssemblies (1628ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2227ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (844ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (573ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 65.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.5 KB). Loaded Objects now: 5424.
+Memory consumption went from 150.9 MB to 150.8 MB.
+Total: 4.718700 ms (FindLiveObjects: 0.370900 ms CreateObjectMapping: 0.278600 ms MarkObjects: 3.842000 ms  DeleteObjects: 0.226100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.000 seconds
+Refreshing native plugins compatible for Editor in 60.75 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.832 seconds
+Domain Reload Profiling: 3808ms
+	BeginReloadAssembly (281ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (1530ms)
+		LoadAssemblies (1630ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1832ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (728ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (503ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 58.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.6 KB). Loaded Objects now: 5440.
+Memory consumption went from 150.9 MB to 150.8 MB.
+Total: 4.546700 ms (FindLiveObjects: 0.373800 ms CreateObjectMapping: 0.321100 ms MarkObjects: 3.690200 ms  DeleteObjects: 0.160600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  1.859 seconds
+Refreshing native plugins compatible for Editor in 54.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.459 seconds
+Domain Reload Profiling: 4297ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (1450ms)
+		LoadAssemblies (1565ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2460ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (970ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (670ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 74.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.4 KB). Loaded Objects now: 5456.
+Memory consumption went from 150.9 MB to 150.7 MB.
+Total: 6.868100 ms (FindLiveObjects: 0.528500 ms CreateObjectMapping: 0.382800 ms MarkObjects: 5.763600 ms  DeleteObjects: 0.191900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.046 seconds
+Refreshing native plugins compatible for Editor in 60.27 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.582 seconds
+Domain Reload Profiling: 4606ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (149ms)
+	LoadAllAssembliesAndSetupDomain (1559ms)
+		LoadAssemblies (1676ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2582ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1114ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (184ms)
+			ProcessInitializeOnLoadAttributes (821ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 67.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.5 KB). Loaded Objects now: 5472.
+Memory consumption went from 150.9 MB to 150.8 MB.
+Total: 4.996200 ms (FindLiveObjects: 0.412600 ms CreateObjectMapping: 0.327600 ms MarkObjects: 4.079500 ms  DeleteObjects: 0.175700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  2.608 seconds
+Refreshing native plugins compatible for Editor in 70.03 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.308 seconds
+Domain Reload Profiling: 4888ms
+	BeginReloadAssembly (397ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (141ms)
+	LoadAllAssembliesAndSetupDomain (1969ms)
+		LoadAssemblies (2178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2309ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (859ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (575ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 62.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (149.6 KB). Loaded Objects now: 5488.
+Memory consumption went from 151.0 MB to 150.8 MB.
+Total: 5.122600 ms (FindLiveObjects: 0.595000 ms CreateObjectMapping: 0.566600 ms MarkObjects: 3.811000 ms  DeleteObjects: 0.149200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PersistenceManager.cs: 98e77eb91caedf44c4fbda8268028271 -> 3cfb95b9518f7574002af04ec57606d8
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Supabase.Realtime.dll' with different versions detected, using 'Assets/Packages/Supabase.Realtime.7.0.2/lib/netstandard2.1/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=7.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/realtime-csharp.6.0.4/lib/netstandard2.0/Supabase.Realtime.dll, AssemblyName=Supabase.Realtime, Version=6.0.4.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Functions.dll' with different versions detected, using 'Assets/Packages/Supabase.Functions.2.0.0/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/functions-csharp.1.3.2/lib/netstandard2.0/Supabase.Functions.dll, AssemblyName=Supabase.Functions, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Gotrue.dll' with different versions detected, using 'Assets/Packages/Supabase.Gotrue.6.0.3/lib/netstandard2.1/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/gotrue-csharp.4.2.7/lib/netstandard2.0/Supabase.Gotrue.dll, AssemblyName=Supabase.Gotrue, Version=4.2.7.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Storage.dll' with different versions detected, using 'Assets/Packages/Supabase.Storage.2.0.2/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-storage-csharp.1.4.0/lib/netstandard2.0/Supabase.Storage.dll, AssemblyName=Supabase.Storage, Version=1.4.0.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.Postgrest.dll' with different versions detected, using 'Assets/Packages/Supabase.Postgrest.4.0.3/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/postgrest-csharp.3.5.1/lib/netstandard2.0/Supabase.Postgrest.dll, AssemblyName=Supabase.Postgrest, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null'.Duplicate assembly 'Supabase.dll' with different versions detected, using 'Assets/Packages/Supabase.1.1.1/lib/netstandard2.1/Supabase.dll, AssemblyName=Supabase, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Assets/Packages/supabase-csharp.0.16.2/lib/netstandard2.0/Supabase.dll, AssemblyName=Supabase, Version=0.16.2.0, Culture=neutral, PublicKeyToken=null'.- Loaded All Assemblies, in  1.923 seconds
+Refreshing native plugins compatible for Editor in 51.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.838 seconds
+Domain Reload Profiling: 3734ms
+	BeginReloadAssembly (270ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (1462ms)
+		LoadAssemblies (1580ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1838ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (689ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (464ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)

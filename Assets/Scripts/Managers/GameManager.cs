@@ -19,6 +19,10 @@ public class GameManager : MonoBehaviour, ISaveManager
     [SerializeField] private float lostCurrencyX;
     [SerializeField] private float lostCurrencyY;
 
+    public int levelCounter;
+    public int currLevel;
+    public int[] levelArrangement = new int[3];
+
     private void Awake()
     {
         if (instance != null)
@@ -39,13 +43,20 @@ public class GameManager : MonoBehaviour, ISaveManager
             RestartScene();
     }
     public void RestartScene()
-    {   
-        SaveManager.instance.SaveGame();
+    {
+        LoadClosestCheckpointFromArray();
+        player.GetComponent<Player>().stateMachine.ChangeState(player.GetComponent<Player>().idleState);
         Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene(scene.name); 
     }
 
-    public void LoadData(GameData _data) => StartCoroutine(LoadWithDelay(_data));
+    public void LoadData(GameData _data)
+    {
+        this.levelArrangement = _data.levelArrangement;
+        this.currLevel = _data.currLevel;
+        this.levelCounter = _data.levelCounter;
+        StartCoroutine(LoadWithDelay(_data));
+    }
 
     private void LoadCheckpoints(GameData _data)
     {
@@ -88,6 +99,8 @@ public class GameManager : MonoBehaviour, ISaveManager
         _data.lostCurrencyAmount = lostCurrencyAmount;
         _data.lostCurrencyX = player.position.x;
         _data.lostCurrencyY = player.position.y;
+        _data.currLevel = currLevel;
+        _data.levelArrangement = levelArrangement;
 
 
         if(FindClosestCheckpoint() != null)
@@ -111,6 +124,16 @@ public class GameManager : MonoBehaviour, ISaveManager
         foreach (Checkpoint checkpoint in checkpoints)
         {
             if (closestCheckpointId == checkpoint.id)
+                player.position = checkpoint.transform.position;
+        }
+    }
+
+    private void LoadClosestCheckpointFromArray()
+    {
+        Checkpoint checkpoint1 = FindClosestCheckpoint();
+        foreach (Checkpoint checkpoint in checkpoints)
+        {
+            if (checkpoint1.id == checkpoint.id)
                 player.position = checkpoint.transform.position;
         }
     }

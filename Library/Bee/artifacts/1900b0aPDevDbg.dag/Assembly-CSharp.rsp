@@ -398,6 +398,7 @@
 "Assets/Scripts/Enemy/Skeleton/SkeletonMoveState.cs"
 "Assets/Scripts/Enemy/Skeleton/SkeletonStunnedState.cs"
 "Assets/Scripts/Entity.cs"
+"Assets/Scripts/ExitTrigger.cs"
 "Assets/Scripts/Items and Inventory/Effects/Buff_Effect.cs"
 "Assets/Scripts/Items and Inventory/Effects/FreezeEnemies_Effect.cs"
 "Assets/Scripts/Items and Inventory/Effects/Heal_Effect.cs"

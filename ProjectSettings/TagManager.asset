@@ -6,6 +6,7 @@ TagManager:
   tags:
   - StatValue
   - StatName
+  - Enemy
   layers:
   - Default
   - TransparentFX

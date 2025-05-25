@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [System.Serializable]
@@ -19,6 +20,10 @@ public class GameData
     public float lostCurrencyY;
     public int lostCurrencyAmount;
 
+    public int[] levelArrangement;
+    public int currLevel;
+    public int levelCounter;
+
     public SerializableDictionary<string, float> volumeSettings;
 
     public GameData()
@@ -37,5 +42,23 @@ public class GameData
         checkpoints = new SerializableDictionary<string, bool>();
 
         volumeSettings= new SerializableDictionary<string, float>();
+
+        levelArrangement  = new int[3];
+        levelCounter = 0;
+        currLevel = 0;
+        
+        for (int i = 0; i < 3; i++)
+        {
+            System.Random random = new System.Random();
+            int levelNum = random.Next(3) + 1;
+            if (!levelArrangement.Contains(levelNum))
+            {
+                levelArrangement[i] = levelNum;
+            }
+            else
+            {
+                i--;
+            }
+        }
     }
 }
