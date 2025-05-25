@@ -66,10 +66,13 @@ public class EnemyStats : CharacterStats
     protected override void Die()
     {
         base.Die();
+
+        myDropSystem.GenerateDrop();
+
+
         enemy.Die();
 
         PlayerManager.instance.currency += soulsDropAmount.GetValue();
-        myDropSystem.GenerateDrop();
 
 
         Destroy(gameObject, 5f);

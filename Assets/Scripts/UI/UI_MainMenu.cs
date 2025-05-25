@@ -1,12 +1,7 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Windows;
-using System.IO;
-using System.Threading;
 
 public class UI_MainMenu : MonoBehaviour
 {
@@ -18,11 +13,7 @@ public class UI_MainMenu : MonoBehaviour
 
     private void Start()
     {
-        GameObject Login = GameObject.Find("LoginStuff");
-        GameObject saveM = GameObject.Find("SaveManager");
-        filePath = Application.persistentDataPath + "/" + "data.json";
-        Debug.Log(filePath + " MENU");
-        if (!System.IO.File.Exists(filePath))
+        if (SaveManager.instance.HasSavedData() == false)
             continueButton.SetActive(false);
     }
 
@@ -40,7 +31,7 @@ public class UI_MainMenu : MonoBehaviour
     public void ExitGame()
     {
         Debug.Log("Exit game");
-        Application.Quit();
+        //Application.Quit();
     }
 
     IEnumerator LoadSceneWithFadeEffect(float _delay, int levelCounter)
@@ -55,18 +46,4 @@ public class UI_MainMenu : MonoBehaviour
             sceneName = "Level" + gameManager.GetComponent<GameManager>().currLevel.ToString();
         SceneManager.LoadScene(sceneName);
     }
-
-    private static readonly Regex sWhitespace = new Regex(@"\s+");
-    public static string ReplaceWhitespace(string input, string replacement)
-    {
-        return sWhitespace.Replace(input, replacement);
-    }
-
-    IEnumerator WaitWithDelayThenCondition(float delaySeconds)
-    {
-        yield return new WaitForSeconds(delaySeconds); // Delay first
-
-        Debug.Log("Delay passed and condition met!");
-    }
-
 }

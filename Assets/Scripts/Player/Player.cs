@@ -18,8 +18,6 @@ public class Player : Entity
     public float swordReturnImpact;
     private float defaultMoveSpeed;
     private float defaultJumpForce;
-    public float jumpctr = 0;
-    public float jumpmax = 2;
 
     [Header("Dash info")]   
     public float dashSpeed;
@@ -80,7 +78,7 @@ public class Player : Entity
     {
         base.Start();
 
-        fx = GetComponent<PlayerFX>();
+                fx = GetComponent<PlayerFX>();
 
         skill = SkillManager.instance;
 
@@ -89,7 +87,6 @@ public class Player : Entity
         defaultMoveSpeed = moveSpeed;
         defaultJumpForce = jumpForce;
         defaultDashSpeed = dashSpeed;
-        jumpctr = jumpmax;
     }
 
 

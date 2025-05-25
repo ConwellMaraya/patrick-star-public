@@ -171,8 +171,6 @@ public class Sword_Skill_Controller : MonoBehaviour
     {
         if (isBouncing && enemyTarget.Count > 0)
         {
-
-
             transform.position = Vector2.MoveTowards(transform.position, enemyTarget[targetIndex].position, bounceSpeed * Time.deltaTime);
 
             if (Vector2.Distance(transform.position, enemyTarget[targetIndex].position) < .1f)
@@ -250,20 +248,26 @@ public class Sword_Skill_Controller : MonoBehaviour
         }
     }
 
+    private bool spinWasTriggered;
+
     private void StuckInto(Collider2D collision)
     {
+        if (collision.GetComponent<CharacterStats>()?.isInvincible == true)
+            return;
+
         if (pierceAmount > 0 && collision.GetComponent<Enemy>() != null)
         {
             pierceAmount--;
             return;
         }
 
-        if (isSpinning)
+
+        if (isSpinning && !spinWasTriggered)
         {
+            spinWasTriggered = true;
             StopWhenSpinning();
             return;
         }
-
 
         canRotate = false;
         cd.enabled = false;

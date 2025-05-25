@@ -23,15 +23,8 @@ public class PlayerJumpState : PlayerState
     public override void Update()
     {
         base.Update();
-        if (Input.GetKeyDown(KeyCode.Space) && player.jumpctr > 0)
-        {
-            player.jumpctr--;
-            stateMachine.ChangeState(player.jumpState);
-        }
 
-        
-
-        else if (rb.velocity.y < 0)
+        if (rb.velocity.y < 0)
             stateMachine.ChangeState(player.airState);
     }
 }
