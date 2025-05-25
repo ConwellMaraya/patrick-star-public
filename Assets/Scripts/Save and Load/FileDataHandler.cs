@@ -3,36 +3,43 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.IO;
-using System.Text.RegularExpressions;
-using Newtonsoft.Json;
 
 public class FileDataHandler 
 {
     private string dataDirPath = "";
     private string dataFileName = "";
-    private string codeWord = "pintados";
-    public GameObject Login;
+
+    private bool encryptData = false;
+    private string codeWord = "alexdev";
 
 
-    public FileDataHandler(string _dataDirPath, string _dataFileName)
+    public FileDataHandler(string _dataDirPath, string _dataFileName,bool _encryptData)
     {
         dataDirPath = _dataDirPath;
         dataFileName = _dataFileName;
+        encryptData = _encryptData;
     }
 
     public void Save(GameData _data)
     {
-        Login = GameObject.Find("LoginStuff");
         string fullPath = Path.Combine(dataDirPath, dataFileName);
 
         try
         {
             Directory.CreateDirectory(Path.GetDirectoryName(fullPath));
 
-            string dataToStore = JsonConvert.SerializeObject(_data,Formatting.Indented);
+            string dataToStore = JsonUtility.ToJson(_data, true);
 
-            File.WriteAllText(fullPath, dataToStore);
-            
+            if (encryptData)
+                dataToStore = EncryptDecrypt(dataToStore);
+
+            using (FileStream stream = new FileStream(fullPath, FileMode.Create))
+            {
+                using(StreamWriter writer = new StreamWriter(stream))
+                {
+                    writer.Write(dataToStore);
+                }
+            }
         }
 
         catch(Exception e)
@@ -43,23 +50,36 @@ public class FileDataHandler
 
     public GameData Load()
     {
-        string fullPath = dataDirPath + "/" + dataFileName;
+        string fullPath = Path.Combine(dataDirPath, dataFileName);
         GameData loadData = null;
 
         if (File.Exists(fullPath))
         {
             try
             {
-                string dataToLoad = File.ReadAllText(fullPath);
+                string dataToLoad = "";
 
-                loadData = JsonConvert.DeserializeObject<GameData>(dataToLoad);
+                using (FileStream stream = new FileStream(fullPath, FileMode.Open))
+                {
+                    using (StreamReader reader = new StreamReader(stream))
+                    {
+                        dataToLoad = reader.ReadToEnd();
+                    }
+                }
+
+                if (encryptData)
+                    dataToLoad = EncryptDecrypt(dataToLoad);
+
+                loadData = JsonUtility.FromJson<GameData>(dataToLoad);
             }
             catch (Exception e)
             {
                 Debug.LogError("Error on trying to load data from file:" + fullPath + "\n" + e);
             }
         }
-
+        
+        
+        
 
         return loadData;
 
@@ -84,11 +104,5 @@ public class FileDataHandler
 
         return modifiedData;
 
-    }
-
-    private static readonly Regex sWhitespace = new Regex(@"\s+");
-    public static string ReplaceWhitespace(string input, string replacement)
-    {
-        return sWhitespace.Replace(input, replacement);
     }
 }

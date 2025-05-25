@@ -3,34 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using UnityEngine.SceneManagement;
-using System;
-using System.Text.RegularExpressions;
-using System.IO;
-using System.Threading;
 
 public class SaveManager : MonoBehaviour 
 {
     public static SaveManager instance;
 
-
-    public string fileName;
-    public string filePath;
+    [SerializeField] private string fileName;
+    [SerializeField] private bool encryptData;
     private GameData gameData;
     [SerializeField] private List<ISaveManager> saveManagers;
     private FileDataHandler dataHandler;
-    private bool saveDataExist = false;
+
 
     [ContextMenu("Delete save file")]
     public void DeleteSavedData()
     {
-        dataHandler = new FileDataHandler(filePath, fileName);
+        dataHandler = new FileDataHandler(Application.persistentDataPath, fileName,encryptData);
         dataHandler.Delete();
+
     }
 
     private void Awake()
     {
-        
-
         if (instance != null)
             Destroy(instance.gameObject);
         else
@@ -38,27 +32,14 @@ public class SaveManager : MonoBehaviour
     }
 
 
-    private async void Start()
+    private void Start()
     {
-        GameObject Login = GameObject.Find("LoginStuff");
-        fileName = "data.json";
-        filePath = Application.persistentDataPath;
-        Debug.LogError(fileName + " SAVE MANAGER");
-        Debug.LogError(filePath + " SAVE MANAGER");
-        dataHandler = new FileDataHandler(filePath, fileName);
+        dataHandler = new FileDataHandler(Application.persistentDataPath, fileName,encryptData);
         saveManagers = FindAllSaveManagers();
-        string savefilePath = Path.Combine(filePath, fileName);
-        await ServerSaveHandling.DownloadRowAsJsonAsync(savefilePath, Login.GetComponent<LoginStuffScript>().userSaveName, Login.GetComponent<LoginStuffScript>().projectUrl, Login.GetComponent<LoginStuffScript>().apiKey, Login.GetComponent<LoginStuffScript>().tableName, Login.GetComponent<LoginStuffScript>().playerId);
-        if (Directory.Exists(filePath))
-            saveDataExist = true;
 
         //Invoke("LoadGame", .05f);
-
-
         
         LoadGame();
-
-        
         
         
     }
@@ -78,8 +59,6 @@ public class SaveManager : MonoBehaviour
             NewGame();
         }
 
-        
-
         foreach(ISaveManager saveManager in saveManagers)
         {
             saveManager.LoadData(gameData);
@@ -97,6 +76,11 @@ public class SaveManager : MonoBehaviour
         dataHandler.Save(gameData);
     }
 
+    private void OnApplicationQuit()
+    {
+        SaveGame();
+    }
+
     private List<ISaveManager> FindAllSaveManagers()
     {
         IEnumerable<ISaveManager> saveManagers = FindObjectsOfType<MonoBehaviour>().OfType<ISaveManager>();
@@ -106,20 +90,11 @@ public class SaveManager : MonoBehaviour
 
     public bool HasSavedData()
     {
-        return saveDataExist;
+        if (dataHandler.Load() != null)
+        {
+            return true;
+        }
+
+        return false;
     }
-
-    private static readonly Regex sWhitespace = new Regex(@"\s+");
-    public static string ReplaceWhitespace(string input, string replacement)
-    {
-        return sWhitespace.Replace(input, replacement);
-    }
-
-    IEnumerator WaitWithDelayThenCondition(float delaySeconds)
-    {
-        yield return new WaitForSeconds(delaySeconds); // Delay first
-
-        Debug.Log("Delay passed and condition met!");
-    }
-
 }

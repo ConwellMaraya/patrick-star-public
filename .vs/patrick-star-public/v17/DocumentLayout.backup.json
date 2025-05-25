@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\bencr\\documents\\github\\patrick-star-public\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\bencr\\documents\\github\\patrick-star-public\\assets\\scripts\\enemy\\enemystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\bencr\\documents\\github\\patrick-star-public\\assets\\scripts\\enemy\\enemystatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemystatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\bencr\\documents\\github\\patrick-star-public\\assets\\scripts\\supabasegooglesignin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\supabasegooglesignin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.collab-proxy@2.3.1\\Editor\\PlasticSCM\\FindWorkspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|c:\\users\\bencr\\documents\\github\\patrick-star-public\\assets\\scripts\\ui\\fullscreentogglescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\assets\\scripts\\ui\\fullscreentogglescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{147FF261-6CE2-FFD2-DAC4-A9F37C6234DA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\fullscreentogglescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -62,19 +74,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:03:24.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyState.cs",
+              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Enemy\\EnemyState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyState.cs",
+              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Enemy\\EnemyState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:03:02.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyStateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Enemy\\EnemyStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyStateMachine.cs",
+              "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Enemy\\EnemyStateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyStateMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:02:21.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SupabaseGoogleSignIn.cs",
               "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\SupabaseGoogleSignIn.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SupabaseGoogleSignIn.cs",
               "ToolTip": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\SupabaseGoogleSignIn.cs",
               "RelativeToolTip": "Assets\\Scripts\\SupabaseGoogleSignIn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwB0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T00:42:34.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FindWorkspace.cs",
               "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Library\\PackageCache\\com.unity.collab-proxy@2.3.1\\Editor\\PlasticSCM\\FindWorkspace.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.collab-proxy@2.3.1\\Editor\\PlasticSCM\\FindWorkspace.cs",
@@ -82,12 +133,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.collab-proxy@2.3.1\\Editor\\PlasticSCM\\FindWorkspace.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAvwC0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T00:42:18.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T00:42:18.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "UI_HealthBar.cs",
               "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\UI_HealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_HealthBar.cs",
@@ -99,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "FullscreenToggleScript.cs",
               "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\FullscreenToggleScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\FullscreenToggleScript.cs",
@@ -107,12 +157,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\FullscreenToggleScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T10:57:01.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T10:57:01.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SaveManager.cs",
               "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\SaveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Save and Load\\SaveManager.cs",
@@ -124,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "UI_Options.cs",
               "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\UI_Options.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_Options.cs",
@@ -136,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "UI_MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\UI\\UI_MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_MainMenu.cs",
@@ -148,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "FileDataHandler.cs",
               "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\FileDataHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Save and Load\\FileDataHandler.cs",
@@ -160,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "SupabaseCredStorage.cs",
               "DocumentMoniker": "C:\\Users\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\SupabaseCredStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Test\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\SupabaseCredStorage.cs",
@@ -172,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ServerSaveHandling.cs",
               "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\ServerSaveHandling.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ServerSaveHandling.cs",
@@ -184,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "SerializableDictionary.cs",
               "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Save and Load\\SerializableDictionary.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Save and Load\\SerializableDictionary.cs",
@@ -196,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\bencr\\Documents\\GitHub\\patrick-star-public\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",

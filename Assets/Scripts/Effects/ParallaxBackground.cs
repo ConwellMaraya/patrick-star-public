@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ParallaxBackground : MonoBehaviour
@@ -11,6 +9,8 @@ public class ParallaxBackground : MonoBehaviour
     private float xPosition;
     private float length;
 
+    private Vector3 targetPosition;
+    [SerializeField] private float lerpSpeed = 10;
     void Start()
     {
         cam = GameObject.Find("Main Camera");
@@ -24,8 +24,8 @@ public class ParallaxBackground : MonoBehaviour
         float distanceMoved = cam.transform.position.x * (1 - parallaxEffect);
         float distanceToMove = cam.transform.position.x * parallaxEffect;
 
-        transform.position = new Vector3(xPosition + distanceToMove, transform.position.y);
-
+        targetPosition = new Vector3(xPosition + distanceToMove, transform.position.y, transform.position.z);
+        transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * lerpSpeed);
 
         if (distanceMoved > xPosition + length)
             xPosition = xPosition + length;
@@ -33,4 +33,5 @@ public class ParallaxBackground : MonoBehaviour
             xPosition = xPosition - length;
 
     }
+
 }
